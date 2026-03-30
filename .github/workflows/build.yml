@@ -47,13 +47,6 @@ jobs:
         run: |
           ./.venv/bin/sphinx-build --write-all src build
 
-      - name: Cache save
-        id: cache-save
-        uses: actions/cache/save@v4
-        with:
-          path: ./.venv
-          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
