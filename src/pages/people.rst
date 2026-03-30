@@ -176,12 +176,13 @@ MS Students
    .. grid-item-card::
       :margin: 0
       :text-align: center
+      :img-top: ../_static/images/people/ortiz.png
 
       **Brian Ortiz**
 
       *MS Student*
 
-      Photo coming soon.
+      `bortiz4@luc.edu <mailto:bortiz4@luc.edu>`__
 
 
 UG Students
