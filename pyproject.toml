@@ -1,0 +1,32 @@
+[project]
+name = "ai4fm-website"
+version = "0.0.1"
+description = "AI4FM Research Group Website - Loyola University Chicago"
+authors = [{ name = "LUC-FMitF Research Group" }]
+requires-python = "~=3.13"
+readme = "README.md"
+keywords = ["website", "github-pages", "formal-methods", "ai4fm"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3.13"
+]
+dependencies = [
+    "ablog>=0.11.12",
+    "sphinx>=8.2.3",
+    "sphinx-autobuild>=2025.8.25",
+    "sphinx-book-theme>=1.1.4",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-design>=0.6.1",
+    "sphinx-togglebutton>=0.3.2",
+    "sphinxcontrib-bibtex>=2.6.5",
+    "sphinxcontrib-youtube>=1.4.1",
+]
+
+[project.urls]
+Homepage = "https://ai4fm.cs.luc.edu"
+Repository = "https://github.com/LoyolaChicagoCS/ai4fm"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
