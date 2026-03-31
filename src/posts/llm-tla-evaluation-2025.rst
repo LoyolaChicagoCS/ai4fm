@@ -1,7 +1,7 @@
 :blogpost: true
 :date: March 29, 2026
-:category: Blog Post
-:tags: Formal Methods, 03-29-2026
+:category: Research Update
+:tags: Formal Methods, TLA+, LLMs
 :nocomments:
 
 Can LLMs Write Correct TLA+ Specifications? Our New Evaluation Study

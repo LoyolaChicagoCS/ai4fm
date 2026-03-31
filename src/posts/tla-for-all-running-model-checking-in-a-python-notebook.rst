@@ -1,7 +1,7 @@
 :blogpost: true
 :date: February 5, 2025
-:category: Blog Post
-:tags: Formal Methods, 02-05-2025
+:category: Research Update
+:tags: Formal Methods, TLA+
 :nocomments:
 
 TLA+ for All: Running Model Checking in a Python Notebook
