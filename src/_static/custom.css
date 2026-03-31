@@ -49,3 +49,12 @@ img.profile-photo {
 .team-text-col {
     padding: 1rem 1.25rem !important;
 }
+
+/* Consistent card background across all sections including dropdowns */
+.sd-card {
+    background-color: var(--sd-color-card-background) !important;
+}
+
+.sd-dropdown .sd-card {
+    background-color: var(--sd-color-card-background) !important;
+}
