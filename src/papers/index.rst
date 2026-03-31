@@ -26,6 +26,22 @@ Research outputs from the AI4FM group at Loyola University Chicago.
    .. grid-item-card::
       :margin: 0
 
+      :octicon:`note;1em;sd-text-primary` **Automating TLA+ Model Synthesis with LLMs and Formal Verification Pipelines**
+
+      *GCASR 2025* — Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
+
+      Poster presented at the 12th Greater Chicago Area Systems Research Workshop.
+      Presents a pipeline for automating TLA+ model synthesis from natural language
+      using LLMs, validated with SANY and TLC.
+
+      .. button-link:: gcasr-2025-tla-llm.html
+         :color: primary
+
+         Full Details
+
+   .. grid-item-card::
+      :margin: 0
+
       :octicon:`book;1em;sd-text-primary` **TLA+ for All: Running Model Checking in a Python Notebook**
 
       *figshare, February 2025* - Laufer, Thiruvathukal
