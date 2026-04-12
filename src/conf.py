@@ -84,6 +84,9 @@ html_theme_options = {
 }
 html_title = project
 
+# Sitemap settings
+sitemap_url_scheme = "{link}"
+
 # OpenGraph / social preview tags
 ogp_site_url = "https://ai4fm.cs.luc.edu/"
 ogp_image = "https://ai4fm.cs.luc.edu/_static/images/favicon.png"

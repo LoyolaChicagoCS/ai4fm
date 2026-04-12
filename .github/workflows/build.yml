@@ -47,6 +47,10 @@ jobs:
         run: |
           ./.venv/bin/sphinx-build -b dirhtml --write-all src build
 
+      - name: Verify sitemap
+        run: |
+          test -f build/sitemap.xml && echo "sitemap.xml generated OK" || echo "WARNING: sitemap.xml missing"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
