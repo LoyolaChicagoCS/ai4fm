@@ -1,6 +1,6 @@
-{% extends "layout.html" %}
+{% extends "!page.html" %}
 
-{% block docs_body %}
+{% block body %}
 {% if pagename in ablog %}
 {% set post = ablog[pagename] %}
 <div class="ablog-post-meta" style="margin-bottom: 1.5rem; color: var(--color-foreground-muted, #6c757d); font-size: 0.9rem;">
@@ -25,4 +25,4 @@
 </div>
 {% endif %}
 {{ super() }}
-{% endblock docs_body %}
+{% endblock body %}
