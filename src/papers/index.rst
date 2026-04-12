@@ -43,8 +43,13 @@ Research outputs from the AI4FM group at Loyola University Chicago.
             Symposium, April 11, 2026. The first systematic evaluation of 30 LLMs on 205 TLA+
             specifications, validated with the SANY parser and TLC model checker.
 
-            .. button-link:: https://doi.org/10.6084/m9.figshare.31988706
+            .. button-link:: gsirs-2026-tla-llm/
                :color: primary
+
+               Full Details
+
+            .. button-link:: https://doi.org/10.6084/m9.figshare.31988706
+               :color: secondary
 
                View on figshare
 
