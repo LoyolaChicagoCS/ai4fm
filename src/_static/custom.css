@@ -98,6 +98,19 @@ pre {
     background-color: var(--sd-color-card-background) !important;
 }
 
+/* Make dropdown containers transparent so student cards match faculty card background */
+.sd-dropdown,
+.sd-dropdown > .sd-summary-title,
+.sd-dropdown > .sd-card,
+.sd-dropdown > .sd-card > .sd-card-body,
+.sd-dropdown .sd-dropdown-content {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
 .sd-dropdown .sd-card {
     background-color: var(--sd-color-card-background) !important;
+    border-color: var(--sd-color-card-border) !important;
+    box-shadow: var(--sd-shadow-sm) !important;
 }
