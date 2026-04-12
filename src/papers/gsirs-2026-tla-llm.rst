@@ -1,20 +1,10 @@
 Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems
 ===================================================================================================================
 
-.. list-table::
-   :widths: 20 80
-   :stub-columns: 1
-
-   * - **Status**
-     - Presented
-   * - **Venue**
-     - GSIRS 2026 — Graduate School Interdisciplinary Research Symposium, April 11, 2026, Loyola University Chicago
-   * - **Authors**
-     - Brian Ortiz, Arslan Bisharat, Mohammed Abuhamad, Konstantin Läufer, Eric Spencer, Khushboo Bhadauria, George K. Thiruvathukal, TaiNing Wang
-   * - **Institution**
-     - Loyola University Chicago
-   * - **DOI / Poster**
-     - Available on figshare
+:Status: Presented
+:Venue: GSIRS 2026 — Graduate School Interdisciplinary Research Symposium, April 11, 2026, Loyola University Chicago
+:Authors: Brian Ortiz, Arslan Bisharat, Mohammed Abuhamad, Konstantin Läufer, Eric Spencer, Khushboo Bhadauria, George K. Thiruvathukal, TaiNing Wang
+:Institution: Loyola University Chicago
 
 
 Abstract

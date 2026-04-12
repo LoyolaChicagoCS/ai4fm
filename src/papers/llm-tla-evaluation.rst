@@ -3,18 +3,10 @@ Can LLMs Write Correct TLA+ Specifications?
 
 Evaluating Natural-Language-to-TLA+ Generation
 
-.. list-table::
-   :widths: 20 80
-   :stub-columns: 1
-
-   * - **Status**
-     - Under Submission
-   * - **Venue**
-     - To be announced
-   * - **Authors**
-     - Anonymous (AI4FM, Loyola University Chicago)
-   * - **DOI / PDF**
-     - Available upon publication
+:Status: Under Submission
+:Venue: To be announced
+:Authors: Anonymous (AI4FM, Loyola University Chicago)
+:DOI / PDF: Available upon publication
 
 
 Abstract
