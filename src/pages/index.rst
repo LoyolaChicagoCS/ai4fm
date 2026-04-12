@@ -7,4 +7,5 @@
 
    About <about>
    Team <people>
+   Funding <funding>
    Get Involved <prospective-students>

@@ -169,13 +169,11 @@ Meet the Team
    Toctrees for the side bars
 
 .. toctree::
-   :glob:
    :hidden:
    :maxdepth: 2
    :caption: Pages
 
    Pages <pages/index>
-   pages/*
 
 .. toctree::
    :hidden:
