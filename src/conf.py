@@ -92,4 +92,5 @@ ogp_custom_meta_tags = [
     '<meta name="description" content="AI4FM — AI for Formal Methods research group at Loyola University Chicago. Advancing TLA+, formal verification, and LLM evaluation for rigorous system design.">',
     '<meta name="keywords" content="formal methods, TLA+, LLMs, model checking, Loyola University Chicago, AI, verification">',
     '<meta name="twitter:card" content="summary">',
+    '<meta name="google-site-verification" content="04K9THhTvTqHTgt9pjOMw5pqkSi5_83nQCXMMrDnFsc" />',
 ]
