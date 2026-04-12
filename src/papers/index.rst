@@ -48,11 +48,6 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
                Full Details
 
-            .. button-link:: https://doi.org/10.6084/m9.figshare.31988706
-               :color: secondary
-
-               View on figshare
-
          .. grid-item-card::
             :margin: 0
 
