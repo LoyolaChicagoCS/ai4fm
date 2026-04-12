@@ -14,7 +14,7 @@ Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective a
    * - **Institution**
      - Loyola University Chicago
    * - **DOI / Poster**
-     - `10.6084/m9.figshare.31988706 <https://doi.org/10.6084/m9.figshare.31988706>`__
+     - Available on figshare
 
 
 Abstract
@@ -53,4 +53,3 @@ Brian Ortiz, Arslan Bisharat, Mohammed Abuhamad, Konstantin Läufer, Eric Spence
 Khushboo Bhadauria, George K. Thiruvathukal, and TaiNing Wang,
 *Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems*,
 GSIRS 2026, April 11, 2026.
-https://doi.org/10.6084/m9.figshare.31988706
