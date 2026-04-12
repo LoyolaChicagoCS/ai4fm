@@ -31,6 +31,7 @@ extensions = [
     "sphinx_togglebutton",
     "sphinxcontrib.youtube",
     "sphinxext.opengraph",
+    "sphinx_sitemap",
 ]
 
 templates_path = ["_templates"]
