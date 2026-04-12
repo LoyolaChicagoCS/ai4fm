@@ -3,54 +3,84 @@ Research Papers
 
 Research outputs from the AI4FM group at Loyola University Chicago.
 
-.. grid:: 1
-   :gutter: 3
+.. tab-set::
 
-   .. grid-item-card::
-      :margin: 0
+   .. tab-item:: Papers
 
-      :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
+      .. grid:: 1
+         :gutter: 3
 
-      *Under Submission*
+         .. grid-item-card::
+            :margin: 0
 
-      The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
-      language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
-      SANY parser and TLC model checker. LLMs achieve only 8.6% semantic correctness.
-      Model size does not predict quality on formal languages.
+            :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
 
-      .. button-link:: llm-tla-evaluation.html
-         :color: primary
+            *Under Submission*
 
-         Full Details
+            The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
+            language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
+            SANY parser and TLC model checker. LLMs achieve only 8.6% semantic correctness.
+            Model size does not predict quality on formal languages.
 
-   .. grid-item-card::
-      :margin: 0
+            .. button-link:: llm-tla-evaluation.html
+               :color: primary
 
-      :octicon:`note;1em;sd-text-primary` **Automating TLA+ Model Synthesis with LLMs and Formal Verification Pipelines**
+               Full Details
 
-      *GCASR 2025* — Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
+   .. tab-item:: Posters
 
-      Poster presented at the 12th Greater Chicago Area Systems Research Workshop.
-      Presents a pipeline for automating TLA+ model synthesis from natural language
-      using LLMs, validated with SANY and TLC.
+      .. grid:: 1
+         :gutter: 3
 
-      .. button-link:: gcasr-2025-tla-llm.html
-         :color: primary
+         .. grid-item-card::
+            :margin: 0
 
-         Full Details
+            :octicon:`note;1em;sd-text-primary` **Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems**
 
-   .. grid-item-card::
-      :margin: 0
+            *GSIRS 2026* — Ortiz, Bisharat, Abuhamad, Läufer, Spencer, Bhadauria, Thiruvathukal, Wang
 
-      :octicon:`book;1em;sd-text-primary` **TLA+ for All: Running Model Checking in a Python Notebook**
+            Presented at the Loyola University Chicago Graduate School Interdisciplinary Research
+            Symposium, April 11, 2026. The first systematic evaluation of 30 LLMs on 205 TLA+
+            specifications, validated with the SANY parser and TLC model checker.
 
-      *figshare, February 2025* - Laufer, Thiruvathukal
+            .. button-link:: https://doi.org/10.6084/m9.figshare.31988706
+               :color: primary
 
-      Integrates TLA+ model checking into Python notebook environments, making formal
-      verification accessible without specialized tooling. Supports literate modeling,
-      reproducibility, and barrier-free access for teaching and research.
+               View on figshare
 
-      .. button-link:: tla-for-all.html
-         :color: primary
+         .. grid-item-card::
+            :margin: 0
 
-         Full Details
+            :octicon:`note;1em;sd-text-primary` **Automating TLA+ Model Synthesis with LLMs and Formal Verification Pipelines**
+
+            *GCASR 2025* — Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
+
+            Presented at the 12th Greater Chicago Area Systems Research Workshop, May 8, 2025,
+            Loyola University Chicago. Presents a pipeline for automating TLA+ model synthesis
+            from natural language using LLMs, validated with SANY and TLC.
+
+            .. button-link:: gcasr-2025-tla-llm.html
+               :color: primary
+
+               Full Details
+
+   .. tab-item:: Tools & Artifacts
+
+      .. grid:: 1
+         :gutter: 3
+
+         .. grid-item-card::
+            :margin: 0
+
+            :octicon:`book;1em;sd-text-primary` **TLA+ for All: Running Model Checking in a Python Notebook**
+
+            *figshare, February 2025* — Laufer, Thiruvathukal
+
+            Integrates TLA+ model checking into Python notebook environments, making formal
+            verification accessible without specialized tooling. Supports literate modeling,
+            reproducibility, and barrier-free access for teaching and research.
+
+            .. button-link:: tla-for-all.html
+               :color: primary
+
+               Full Details
