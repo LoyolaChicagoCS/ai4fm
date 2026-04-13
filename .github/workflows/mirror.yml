@@ -16,5 +16,5 @@ jobs:
 
       - name: Push mirror
         run: |
-          git remote add mirror https://x-access-token:${{ secrets.MIRROR_PAT }}@github.com/LUC-AI4FM/webpage.git
-          git push mirror main --force
+          git remote add mirror https://arslanbisharat:${{ secrets.MIRROR_PAT }}@github.com/LUC-AI4FM/webpage.git
+          git push mirror main --force 2>&1 || (echo "Push failed with exit $?" && git remote -v && exit 1)
