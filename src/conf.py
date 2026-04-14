@@ -64,7 +64,7 @@ autosectionlabel_maxdepth = 2
 
 html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
-html_extra_path = ["CNAME"]
+html_extra_path = ["CNAME", "favicon.ico"]
 html_css_files = ["custom.css"]
 html_baseurl = "https://ai4fm.cs.luc.edu/"
 html_favicon = "_static/favicon.png"
