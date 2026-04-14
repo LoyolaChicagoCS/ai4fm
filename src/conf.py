@@ -74,6 +74,10 @@ html_theme_options = {
     "max_navbar_depth": 2,
     "collapse_navbar": True,
     "use_sidenotes": True,
+    "logo": {
+        "image_light": "_static/images/logo-text.jpeg",
+        "image_dark": "_static/images/logo-text.jpeg",
+    },
     "icon_links": [
         {
             "name": "GitHub",
