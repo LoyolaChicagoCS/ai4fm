@@ -67,11 +67,14 @@ html_static_path = ["_static"]
 html_extra_path = ["CNAME"]
 html_css_files = ["custom.css"]
 html_baseurl = "https://ai4fm.cs.luc.edu/"
-html_logo = "_static/images/logo.png"
 html_favicon = "_static/favicon.png"
 
 # Sphinx Book Theme Settings
 html_theme_options = {
+    "logo": {
+        "image_light": "_static/images/logo-light.png",
+        "image_dark": "_static/images/logo-dark.png",
+    },
     "show_navbar_depth": 0,
     "max_navbar_depth": 2,
     "collapse_navbar": True,
@@ -91,7 +94,7 @@ sitemap_url_scheme = "{link}"
 
 # OpenGraph / social preview tags
 ogp_site_url = "https://ai4fm.cs.luc.edu/"
-ogp_image = "https://ai4fm.cs.luc.edu/_static/images/logo.png"
+ogp_image = "https://ai4fm.cs.luc.edu/_static/images/logo-light.png"
 ogp_description_length = 200
 ogp_type = "website"
 ogp_custom_meta_tags = [
