@@ -2,7 +2,7 @@ Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective a
 ===================================================================================================================
 
 :Status: Presented
-:Venue: GSIRS 2026 — Graduate School Interdisciplinary Research Symposium, April 11, 2026, Loyola University Chicago
+:Venue: GSIRS 2026 - Graduate School Interdisciplinary Research Symposium, April 11, 2026, Loyola University Chicago
 :Authors: Brian Ortiz, Arslan Bisharat, Mohammed Abuhamad, Konstantin Läufer, Eric Spencer, Khushboo Bhadauria, George K. Thiruvathukal, TaiNing Wang
 :Institution: Loyola University Chicago
 

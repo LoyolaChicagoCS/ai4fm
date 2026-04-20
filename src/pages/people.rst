@@ -208,7 +208,7 @@ Students
 
             *Undergraduate Researcher, Computer Science*
 
-            Mulcahy Scholar — supported by the Loyola University Chicago
+            Mulcahy Scholar - supported by the Loyola University Chicago
             College of Arts and Sciences Mulcahy Scholars Program under
             the supervision of Prof. Konstantin Läufer.
 

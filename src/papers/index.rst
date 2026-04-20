@@ -37,7 +37,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`video;1em;sd-text-primary` **ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification**
 
-            *Undergraduate Research and Engagement Symposium, April 17, 2026* — Eric Spencer
+            *Undergraduate Research and Engagement Symposium, April 17, 2026* - Eric Spencer
 
             A presentation exploring the use of large language models for generating and verifying
             TLA+ formal specifications. Builds on the group's systematic evaluation research,
@@ -58,7 +58,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`note;1em;sd-text-primary` **Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems**
 
-            *GSIRS 2026* — Ortiz, Bisharat, Abuhamad, Läufer, Spencer, Bhadauria, Thiruvathukal, Wang
+            *GSIRS 2026* - Ortiz, Bisharat, Abuhamad, Läufer, Spencer, Bhadauria, Thiruvathukal, Wang
 
             Presented at the Loyola University Chicago Graduate School Interdisciplinary Research
             Symposium, April 11, 2026. The first systematic evaluation of 30 LLMs on 205 TLA+
@@ -74,7 +74,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`note;1em;sd-text-primary` **Automating TLA+ Model Synthesis with LLMs and Formal Verification Pipelines**
 
-            *GCASR 2025* — Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
+            *GCASR 2025* - Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
 
             Presented at the 12th Greater Chicago Area Systems Research Workshop, May 8, 2025,
             Loyola University Chicago. Presents a pipeline for automating TLA+ model synthesis
@@ -95,7 +95,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`book;1em;sd-text-primary` **TLA+ for All: Running Model Checking in a Python Notebook**
 
-            *figshare, February 2025* — Laufer, Thiruvathukal
+            *figshare, February 2025* - Laufer, Thiruvathukal
 
             Integrates TLA+ model checking into Python notebook environments, making formal
             verification accessible without specialized tooling. Supports literate modeling,

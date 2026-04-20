@@ -9,7 +9,7 @@ Eric Spencer Presents ChatTLA+ at Loyola University Chicago
 ============================================================
 
 Eric Spencer presented **ChatTLA+** at the **Undergraduate Research and Engagement Symposium**
-at Loyola University Chicago on April 17, 2026 — a talk exploring the use of large language
+at Loyola University Chicago on April 17, 2026 - a talk exploring the use of large language
 models for generating and verifying TLA+ formal specifications.
 
 .. figure:: ../_static/images/eric-chattla-presentation-2026.png
