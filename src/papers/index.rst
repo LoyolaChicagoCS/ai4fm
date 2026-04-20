@@ -74,7 +74,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`video;1em;sd-text-primary` **ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification**
 
-            *April 17, 2026* — Eric Spencer
+            *Undergraduate Research and Engagement Symposium, April 17, 2026* — Eric Spencer
 
             A presentation exploring the use of large language models for generating and verifying
             TLA+ formal specifications. Builds on the group's systematic evaluation research,
