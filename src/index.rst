@@ -185,10 +185,10 @@ Meet the Team
 
    All Papers <papers/index>
    papers/llm-tla-evaluation
+   papers/chattla-2026
    papers/gsirs-2026-tla-llm
    papers/gcasr-2025-tla-llm
    papers/tla-for-all
-   papers/chattla-2026
 
 .. toctree::
    :hidden:

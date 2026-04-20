@@ -27,6 +27,27 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
                Full Details
 
+   .. tab-item:: Presentations
+
+      .. grid:: 1
+         :gutter: 3
+
+         .. grid-item-card::
+            :margin: 0
+
+            :octicon:`video;1em;sd-text-primary` **ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification**
+
+            *Undergraduate Research and Engagement Symposium, April 17, 2026* — Eric Spencer
+
+            A presentation exploring the use of large language models for generating and verifying
+            TLA+ formal specifications. Builds on the group's systematic evaluation research,
+            extending to practical generation and verification pipelines.
+
+            .. button-link:: chattla-2026/
+               :color: primary
+
+               Full Details
+
    .. tab-item:: Posters
 
       .. grid:: 1
@@ -60,27 +81,6 @@ Research outputs from the AI4FM group at Loyola University Chicago.
             from natural language using LLMs, validated with SANY and TLC.
 
             .. button-link:: gcasr-2025-tla-llm/
-               :color: primary
-
-               Full Details
-
-   .. tab-item:: Presentations
-
-      .. grid:: 1
-         :gutter: 3
-
-         .. grid-item-card::
-            :margin: 0
-
-            :octicon:`video;1em;sd-text-primary` **ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification**
-
-            *Undergraduate Research and Engagement Symposium, April 17, 2026* — Eric Spencer
-
-            A presentation exploring the use of large language models for generating and verifying
-            TLA+ formal specifications. Builds on the group's systematic evaluation research,
-            extending to practical generation and verification pipelines.
-
-            .. button-link:: chattla-2026/
                :color: primary
 
                Full Details
