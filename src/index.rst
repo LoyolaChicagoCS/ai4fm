@@ -173,7 +173,10 @@ Meet the Team
    :maxdepth: 2
    :caption: Pages
 
-   Pages <pages/index>
+   About <pages/about>
+   Team <pages/people>
+   Funding <pages/funding>
+   Get Involved <pages/prospective-students>
 
 .. toctree::
    :hidden:
@@ -185,6 +188,7 @@ Meet the Team
    papers/gsirs-2026-tla-llm
    papers/gcasr-2025-tla-llm
    papers/tla-for-all
+   papers/chattla-2026
 
 .. toctree::
    :hidden:
@@ -192,6 +196,7 @@ Meet the Team
    :caption: Research Updates
 
    All Posts <posts/index>
+   posts/chattla-presentation-2026
    posts/gsirs-llm-tla-poster-2026
    posts/llm-tla-evaluation-2025
    posts/gcasr-2025-poster
