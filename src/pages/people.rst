@@ -218,13 +218,13 @@ Students
          .. grid-item-card::
             :margin: 0
             :text-align: center
-            :img-top: ../_static/images/people/ramos.png
+            :img-top: ../_static/images/people/bsantos.png
 
-            **Anisa Ramos**
+            **Beatriz Santos**
 
-            *Undergraduate Researcher*
+            *Undergraduate Student*
 
-            `Email <mailto:anisapr14@gmail.com>`__
+            `Email <mailto:bsantos3@luc.edu>`__
 
    .. dropdown:: Interns
       :open:
@@ -232,8 +232,19 @@ Students
       No current interns. Interested? See :doc:`Get Involved <prospective-students>`.
 
 
-Previous Members
-----------------
+Alumni
+------
 
-.. note::
-   To be added.
+.. grid:: 1 1 2 3
+   :gutter: 3
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: ../_static/images/people/ramos.png
+
+      **Anisa Ramos**
+
+      *Undergraduate Researcher*
+
+      `Email <mailto:anisapr14@gmail.com>`__
