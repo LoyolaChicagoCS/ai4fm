@@ -4,7 +4,7 @@ Can LLMs Write Correct TLA+ Specifications?
 Evaluating Natural-Language-to-TLA+ Generation
 
 :Status: Accepted
-:Venue: ICSOFT 2026, Porto, Portugal
+:Venue: ICSOFT 2026 - International Conference on Software Technologies, Porto, Portugal
 :Authors: AI4FM, Loyola University Chicago
 :DOI / PDF: Available upon publication
 
