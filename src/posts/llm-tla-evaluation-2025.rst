@@ -16,4 +16,4 @@ was only 8.6%, and model size did not predict quality.
 `Read the full paper details <../../papers/llm-tla-evaluation/>`__
 
 .. note::
-   This paper is currently under submission.
+   This paper has been accepted. See the `acceptance announcement <../llm-tla-accepted-2026/>`__.

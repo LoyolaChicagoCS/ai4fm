@@ -3,9 +3,9 @@ Can LLMs Write Correct TLA+ Specifications?
 
 Evaluating Natural-Language-to-TLA+ Generation
 
-:Status: Under Submission
+:Status: Accepted
 :Venue: To be announced
-:Authors: Anonymous (AI4FM, Loyola University Chicago)
+:Authors: AI4FM, Loyola University Chicago
 :DOI / PDF: Available upon publication
 
 
@@ -76,4 +76,4 @@ Citation
 --------
 
 .. note::
-   Full citation will be available upon publication. The paper is currently under submission.
+   Full citation will be available upon publication. The paper has been accepted.

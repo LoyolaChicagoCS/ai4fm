@@ -19,7 +19,7 @@ Featured Research
 
       :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications?**
 
-      *Evaluating Natural-Language-to-TLA+ Generation* - Under Submission
+      *Evaluating Natural-Language-to-TLA+ Generation* - Accepted
 
       The first systematic evaluation of LLM-based TLA+ specification synthesis from
       natural language. We evaluate 30 LLMs across eight families on a curated dataset of
@@ -196,6 +196,7 @@ Meet the Team
    :caption: Research Updates
 
    All Posts <posts/index>
+   posts/llm-tla-accepted-2026
    posts/chattla-presentation-2026
    posts/gsirs-llm-tla-poster-2026
    posts/llm-tla-evaluation-2025

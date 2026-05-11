@@ -15,7 +15,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
 
-            *Under Submission*
+            *Accepted*
 
             The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
             language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
