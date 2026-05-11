@@ -9,7 +9,7 @@ Our Paper on LLM-Based TLA+ Specification Generation Has Been Accepted
 =======================================================================
 
 We are excited to announce that our paper **Can LLMs Write Correct TLA+ Specifications?
-Evaluating Natural-Language-to-TLA+ Generation** has been accepted for publication.
+Evaluating Natural-Language-to-TLA+ Generation** has been accepted for publication at **ICSOFT 2026** in Porto, Portugal.
 
 The paper presents the first systematic evaluation of LLM-based TLA+ specification
 synthesis from natural language, evaluating 30 LLMs across eight families on a curated
