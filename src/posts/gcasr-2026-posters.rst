@@ -25,20 +25,20 @@ Mohammed Abuhamad, Konstantin Laufer, TaiNing Wang, George K. Thiruvathukal
 
 .. raw:: html
 
-   <link rel="stylesheet" href="/src/_static/css/gallery.css" />
+   <link rel="stylesheet" href="/_static/css/gallery.css" />
    <div class="ai4fm-gallery">
-     <img class="main-img" src="/src/_static/images/Image.jpeg" alt="AI4FM team" />
+     <img class="main-img" src="/_static/images/Image.jpeg" alt="AI4FM team" />
      <div class="thumbs">
-       <img src="/src/_static/images/Image.jpeg" data-full="/src/_static/images/Image.jpeg" alt="Team photo" />
-       <img src="/src/_static/images/PXL_20260511_152740012.jpg" data-full="/src/_static/images/PXL_20260511_152740012.jpg" alt="Close-up 1" />
-       <img src="/src/_static/images/PXL_20260511_164300028.jpg" data-full="/src/_static/images/PXL_20260511_164300028.jpg" alt="Close-up 2" />
-       <img src="/src/_static/images/image.png" data-full="/src/_static/images/image.png" alt="Poster detail" />
+       <img src="/_static/images/Image.jpeg" data-full="/_static/images/Image.jpeg" alt="Team photo" />
+       <img src="/_static/images/PXL_20260511_152740012.jpg" data-full="/_static/images/PXL_20260511_152740012.jpg" alt="Close-up 1" />
+       <img src="/_static/images/PXL_20260511_164300028.jpg" data-full="/_static/images/PXL_20260511_164300028.jpg" alt="Close-up 2" />
+       <img src="/_static/images/image.png" data-full="/_static/images/image.png" alt="Poster detail" />
      </div>
      <div class="controls">
        <button class="g-prev">Previous</button>
        <button class="g-next">Next</button>
      </div>
    </div>
-   <script src="/src/_static/js/gallery.js"></script>
+   <script src="/_static/js/gallery.js"></script>
 
 `See other posts <index.html>`__
