@@ -23,10 +23,22 @@ Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective a
 Authors: Brian Ortiz, Arslan Bisharat, Eric Spencer, Khushboo Bhadauria, Anisa Ramos,
 Mohammed Abuhamad, Konstantin Laufer, TaiNing Wang, George K. Thiruvathukal
 
-.. figure:: ../_static/images/gcasr-2026-posters.jpeg
-   :alt: Team standing next to the posters at GCASR 2026
-   :width: 100%
+.. raw:: html
 
-   The team standing next to their posters at GCASR 2026.
+   <link rel="stylesheet" href="/src/_static/css/gallery.css" />
+   <div class="ai4fm-gallery">
+     <img class="main-img" src="/src/_static/images/Image.jpeg" alt="AI4FM team" />
+     <div class="thumbs">
+       <img src="/src/_static/images/Image.jpeg" data-full="/src/_static/images/Image.jpeg" alt="Team photo" />
+       <img src="/src/_static/images/PXL_20260511_152740012.jpg" data-full="/src/_static/images/PXL_20260511_152740012.jpg" alt="Close-up 1" />
+       <img src="/src/_static/images/PXL_20260511_164300028.jpg" data-full="/src/_static/images/PXL_20260511_164300028.jpg" alt="Close-up 2" />
+       <img src="/src/_static/images/image.png" data-full="/src/_static/images/image.png" alt="Poster detail" />
+     </div>
+     <div class="controls">
+       <button class="g-prev">Previous</button>
+       <button class="g-next">Next</button>
+     </div>
+   </div>
+   <script src="/src/_static/js/gallery.js"></script>
 
 `See other posts <index.html>`__
