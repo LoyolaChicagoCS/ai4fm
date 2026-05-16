@@ -32,7 +32,6 @@ Mohammed Abuhamad, Konstantin Laufer, TaiNing Wang, George K. Thiruvathukal
        <img src="../../_static/images/Image.jpeg" data-full="../../_static/images/Image.jpeg" alt="Team photo" />
        <img src="../../_static/images/PXL_20260511_152740012.jpg" data-full="../../_static/images/PXL_20260511_152740012.jpg" alt="Close-up 1" />
        <img src="../../_static/images/PXL_20260511_164300028.jpg" data-full="../../_static/images/PXL_20260511_164300028.jpg" alt="Close-up 2" />
-       <img src="../../_static/images/image.png" data-full="../../_static/images/image.png" alt="Poster detail" />
      </div>
      <div class="controls">
        <button class="g-prev">Previous</button>
