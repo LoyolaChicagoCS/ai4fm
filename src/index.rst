@@ -175,11 +175,10 @@ Meet the Team
          Browse Papers
 
 
-***************************
- Research Updates
-***************************
+Research Updates
+----------------
 
-.. postlist:: 5
+.. postlist:: 10
    :category: Research Update
    :date: %A, %B %d, %Y
    :format: {date}: {title}
