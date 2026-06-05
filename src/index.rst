@@ -11,7 +11,7 @@ intersection of AI, logic, mathematics, and real-world computing.
 Featured Research
 -----------------
 
-.. grid:: 1
+.. grid:: 1 1 2 2
    :gutter: 2
 
    .. grid-item-card::
@@ -19,21 +19,42 @@ Featured Research
 
       :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications?**
 
-      *Evaluating Natural-Language-to-TLA+ Generation* - Accepted
+      *Evaluating Natural-Language-to-TLA+ Generation* - Accepted at ICSOFT 2026
 
       The first systematic evaluation of LLM-based TLA+ specification synthesis from
       natural language. We evaluate 30 LLMs across eight families on a curated dataset of
       205 TLA+ specifications, validated by both the SANY parser and TLC model checker.
       LLMs achieve up to 26.6% syntactic correctness but only 8.6% semantic correctness.
-      Results show model size does not predict quality and code-specialized models
-      consistently underperform on formal languages.
 
       .. button-link:: papers/llm-tla-evaluation/
          :color: primary
 
          Read More
 
-      .. button-link:: posts/llm-tla-evaluation-2025/
+      .. button-link:: posts/llm-tla-accepted-2026/
+         :color: secondary
+
+         Research Update
+
+
+   .. grid-item-card::
+      :margin: 0
+
+      :octicon:`beaker;1em;sd-text-primary` **TLA-Prover: Verifiable TLA+ Specification Synthesis**
+
+      *Preference-Optimized Low-Rank Adaptation* - Accepted at ICSOFT 2026
+
+      A 20-billion-parameter model trained with supervised fine-tuning and repair-based
+      group-relative policy optimization (GRPO) for TLA+ specification synthesis.
+      TLA-Prover achieves 30% semantic correctness — roughly 3.5× the 8.6% untuned
+      baseline.
+
+      .. button-link:: papers/tla-prover/
+         :color: primary
+
+         Read More
+
+      .. button-link:: posts/tla-prover-accepted-2026/
          :color: secondary
 
          Research Update
@@ -184,6 +205,7 @@ Meet the Team
    :caption: Research Papers
 
    All Papers <papers/index>
+   papers/tla-prover
    papers/llm-tla-evaluation
    papers/chattla-2026
    papers/gsirs-2026-tla-llm
@@ -196,7 +218,9 @@ Meet the Team
    :caption: Research Updates
 
    All Posts <posts/index>
+   posts/tla-prover-accepted-2026
    posts/llm-tla-accepted-2026
+   posts/tla-prover-2026
    posts/chattla-presentation-2026
    posts/gsirs-llm-tla-poster-2026
    posts/llm-tla-evaluation-2025

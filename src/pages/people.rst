@@ -202,22 +202,6 @@ Students
          .. grid-item-card::
             :margin: 0
             :text-align: center
-            :img-top: ../_static/images/people/spencer.png
-
-            **Eric Spencer**
-
-            *Undergraduate Researcher, Computer Science*
-
-            Mulcahy Scholar - supported by the Loyola University Chicago
-            College of Arts and Sciences Mulcahy Scholars Program under
-            the supervision of Prof. Konstantin Läufer.
-
-            `Website <https://ericspencer.us>`__ |
-            `Email <mailto:espencer2@luc.edu>`__
-
-         .. grid-item-card::
-            :margin: 0
-            :text-align: center
             :img-top: ../_static/images/people/bsantos.png
 
             **Beatriz Santos**
@@ -235,16 +219,16 @@ Students
 Alumni
 ------
 
-.. grid:: 1 1 2 3
-   :gutter: 3
+.. list-table::
+   :header-rows: 1
+   :widths: 25 25 50
 
-   .. grid-item-card::
-      :margin: 0
-      :text-align: center
-      :img-top: ../_static/images/people/ramos.png
-
-      **Anisa Ramos**
-
-      *Undergraduate Researcher*
-
-      `Email <mailto:anisapr14@gmail.com>`__
+   * - Name
+     - Joined
+     - Current Affiliation
+   * - Eric Spencer
+     - Fall 2024
+     - Non-affiliated collaborator, Loyola University Chicago
+   * - Anisa Ramos
+     - Spring 2026
+     - Non-affiliated collaborator, Loyola University Chicago

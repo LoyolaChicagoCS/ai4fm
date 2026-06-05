@@ -13,9 +13,25 @@ Research outputs from the AI4FM group at Loyola University Chicago.
          .. grid-item-card::
             :margin: 0
 
+            :octicon:`beaker;1em;sd-text-primary` **TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation**
+
+            *Accepted at ICSOFT 2026*
+
+            A 20-billion-parameter model trained with SFT and repair-based GRPO for TLA+
+            specification synthesis. TLC model checking provides the reward signal directly.
+            Achieves 30% pass@1 at Gold and Diamond — roughly 3.5× the 8.6% untuned baseline.
+
+            .. button-link:: tla-prover/
+               :color: primary
+
+               Full Details
+
+         .. grid-item-card::
+            :margin: 0
+
             :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
 
-            *Accepted*
+            *Accepted at ICSOFT 2026*
 
             The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
             language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
