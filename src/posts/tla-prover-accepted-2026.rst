@@ -6,7 +6,7 @@
 :nocomments:
 
 TLA-Prover Paper Accepted to ICSOFT 2026
-=======================================
+========================================
 
 We are pleased to announce that our latest research paper, **"TLA-Prover: Verifiable TLA+
 Specification Synthesis via Preference-Optimized Low-Rank Adaptation"** (Paper #131), has been
