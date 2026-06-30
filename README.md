@@ -4,7 +4,7 @@
 
 [![Visit ai4fm.cs.luc.edu](https://img.shields.io/badge/Website-ai4fm.cs.luc.edu-darkred?style=for-the-badge)](https://ai4fm.cs.luc.edu)
 
-## Table of Contents
+## Table of Contents     
 
 - [AI4FM Website](#ai4fm-website)
   - [Table of Contents](#table-of-contents)
