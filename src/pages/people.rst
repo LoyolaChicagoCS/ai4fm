@@ -204,7 +204,7 @@ Students
 
             **Eric Spencer**
 
-            *Postgraduate Researcher, Computer Science, Loyola University Chicago*
+            *Undergraduate Student, Computer Science, Loyola University Chicago*
 
             Mulcahy Scholar - supported by the Loyola University Chicago
             College of Arts and Sciences Mulcahy Scholars Program under
