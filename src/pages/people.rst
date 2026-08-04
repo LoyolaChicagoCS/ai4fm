@@ -179,7 +179,7 @@ Students
 
             **Khushboo Bhadauria**
 
-            *MS Student*
+            *MS Student, Computer Science*
 
             `Email <mailto:kbhadauria@luc.edu>`__
 
@@ -190,7 +190,7 @@ Students
 
             **Brian Ortiz**
 
-            *MS Student*
+            *MS Student, Computer Science*
 
             DevSecOps engineering and secure systems. USMC veteran.
 
@@ -227,7 +227,7 @@ Students
 
             **Beatriz Santos**
 
-            *Undergraduate Student*
+            *Undergraduate Student, Computer Science*
 
             `GitHub <https://github.com/beatriz-baquerizo>`__ |
             `Email <mailto:bsantos3@luc.edu>`__
@@ -245,4 +245,4 @@ Alumni
      - Current Affiliation
    * - `Anisa Ramos <https://github.com/Anisa098>`__
      - Spring 2026
-     - Non-affiliated collaborator, Loyola University Chicago
+     - Computer Science Graduate, Loyola University Chicago
