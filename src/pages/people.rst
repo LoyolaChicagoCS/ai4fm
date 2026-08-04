@@ -158,7 +158,7 @@ Students
 
             **Arslan Bisharat**
 
-            *PhD Student*
+            *PhD Student, Computer Science, Loyola University Chicago*
 
             LLM evaluation, formal methods, adversarial ML.
 
@@ -179,7 +179,7 @@ Students
 
             **Khushboo Bhadauria**
 
-            *MS Student, Computer Science*
+            *MS Student, Computer Science, Loyola University Chicago*
 
             `Email <mailto:kbhadauria@luc.edu>`__
 
@@ -190,7 +190,7 @@ Students
 
             **Brian Ortiz**
 
-            *MS Student, Computer Science*
+            *MS Student, Computer Science, Loyola University Chicago*
 
             DevSecOps engineering and secure systems. USMC veteran.
 
@@ -204,7 +204,7 @@ Students
 
             **Eric Spencer**
 
-            *Postgraduate Researcher, Computer Science*
+            *Postgraduate Researcher, Computer Science, Loyola University Chicago*
 
             Mulcahy Scholar - supported by the Loyola University Chicago
             College of Arts and Sciences Mulcahy Scholars Program under
@@ -227,7 +227,7 @@ Students
 
             **Beatriz Santos**
 
-            *Undergraduate Student, Computer Science*
+            *Undergraduate Student, Computer Science, Loyola University Chicago*
 
             `GitHub <https://github.com/beatriz-baquerizo>`__ |
             `Email <mailto:bsantos3@luc.edu>`__
