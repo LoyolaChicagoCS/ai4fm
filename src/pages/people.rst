@@ -214,6 +214,23 @@ Students
 
             `Email <mailto:bsantos3@luc.edu>`__
 
+         .. grid-item-card::
+            :margin: 0
+            :text-align: center
+            :img-top: ../_static/images/people/spencer.png
+
+            **Eric Spencer**
+
+            *Undergraduate Researcher, Computer Science*
+
+            Mulcahy Scholar - supported by the Loyola University Chicago
+            College of Arts and Sciences Mulcahy Scholars Program under
+            the supervision of Prof. Konstantin Läufer.
+
+            `Website <https://ericspencer.us>`__ |
+            `GitHub <https://github.com/EricSpencer00>`__ |
+            `Email <mailto:espencer2@luc.edu>`__
+
    .. dropdown:: Interns
       :open:
 
@@ -230,9 +247,6 @@ Alumni
    * - Name
      - Joined
      - Current Affiliation
-   * - Eric Spencer
-     - Fall 2024
-     - Non-affiliated collaborator, Loyola University Chicago
    * - Anisa Ramos
      - Spring 2026
      - Non-affiliated collaborator, Loyola University Chicago
