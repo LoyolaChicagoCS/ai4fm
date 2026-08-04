@@ -159,7 +159,7 @@ Meet the Team
       `Website <https://taining.github.io/>`__
 
 
-.. grid:: 1
+.. grid:: 1 1 2 2
    :gutter: 2
 
    .. grid-item-card::
@@ -173,6 +173,18 @@ Meet the Team
          :expand:
 
          Browse Papers
+
+   .. grid-item-card::
+      :margin: 3 0 0 0
+      :text-align: center
+
+      :octicon:`repo;1em` **Open Source**
+
+      .. button-link:: pages/software/
+         :color: primary
+         :expand:
+
+         Software and Datasets
 
 
 Research Updates
@@ -195,6 +207,7 @@ Research Updates
 
    About <pages/about>
    Team <pages/people>
+   Software and Datasets <pages/software>
    Funding <pages/funding>
    Get Involved <pages/prospective-students>
 
