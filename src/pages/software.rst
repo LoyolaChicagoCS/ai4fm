@@ -1,9 +1,11 @@
 Software and Datasets
 =====================
 
-AI4FM develops its research artifacts in the open. Everything below lives under the
-`LUC-AI4FM GitHub organization <https://github.com/LUC-AI4FM>`__, where our datasets,
-model-training code, and evaluation harnesses are available for reuse and replication.
+AI4FM develops its research artifacts in the open. Our source code lives under the
+`LUC-AI4FM GitHub organization <https://github.com/LUC-AI4FM>`__, and the trained
+models and corpora produced by that code are published on
+`Hugging Face <https://huggingface.co/EricSpencer00>`__ - available for reuse and
+replication.
 
 .. note::
    This page lists our publicly released repositories. Work that is still under
@@ -43,8 +45,74 @@ Models and Fine-Tuning
       `Repository <https://github.com/LUC-AI4FM/ralph-tla>`__
 
 
-Datasets and Pipelines
-----------------------
+Released Models
+---------------
+
+The **ChatTLA** model family, fine-tuned from ``openai/gpt-oss`` base models for TLA+
+specification synthesis. All are released under Apache 2.0 and are
+`published on Hugging Face <https://huggingface.co/EricSpencer00>`__.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 12 58
+
+   * - Model
+     - Size
+     - Description
+   * - `chattla-20b <https://huggingface.co/EricSpencer00/chattla-20b>`__
+     - 20B
+     - The model behind :doc:`TLA-Prover <../papers/tla-prover>` (ICSOFT 2026), trained
+       with supervised fine-tuning and GRPO. A
+       `GGUF build <https://huggingface.co/EricSpencer00/chattla-20b-gguf>`__ is
+       available for local inference via Ollama and llama.cpp.
+   * - `chattla-v2-sft2 <https://huggingface.co/EricSpencer00/chattla-v2-sft2>`__
+     - 20B
+     - Retrained on the verifier-gated RFT corpus below, so every training example is
+       one the model checker already accepted.
+   * - `chattla-w4dg-120b <https://huggingface.co/EricSpencer00/chattla-w4dg-120b>`__
+     - 117B
+     - The largest model in the family, fine-tuned on the W4 diamond/gold corpus. Also
+       published as a
+       `LoRA adapter <https://huggingface.co/EricSpencer00/chattla-w4dg-120b-adapter>`__
+       for use on top of the stock base model.
+   * - `chattla-20b-prover-v3 <https://huggingface.co/EricSpencer00/chattla-20b-prover-v3>`__
+     - 20B (LoRA)
+     - Targets TLAPS *proof* construction rather than specification generation - the
+       harder downstream task of proving a spec's invariants.
+
+
+Released Datasets
+-----------------
+
+Training and evaluation corpora produced by the pipelines above. These are
+**verifier-gated**: examples are kept only if SANY parses them and TLC accepts them,
+so the corpora contain machine-checked specifications rather than merely plausible ones.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 34 12 54
+
+   * - Dataset
+     - Size
+     - Description
+   * - `tla-w4-diamond-gold <https://huggingface.co/datasets/EricSpencer00/tla-w4-diamond-gold>`__
+     - 4,119 rows
+     - Diamond- and gold-tier survivors of a cross-family verify-until-correct loop,
+       exported as SFT text. The largest corpus in the set.
+   * - `chattla-rft-corpora-v2 <https://huggingface.co/datasets/EricSpencer00/chattla-rft-corpora-v2>`__
+     - 1K-10K rows
+     - Rejection-sampling fine-tuning (RFT/STaR) corpus for specification generation.
+       Used to train ``chattla-v2-sft2``.
+   * - `chattla-tla-prover-corpora-v1 <https://huggingface.co/datasets/EricSpencer00/chattla-tla-prover-corpora-v1>`__
+     - 1,125 SFT rows
+     - Training and evaluation corpora for the TLAPS theorem-proving work.
+   * - `chattla-tla-prover-108-108 <https://huggingface.co/datasets/EricSpencer00/chattla-tla-prover-108-108>`__
+     - Artifact
+     - A reproducible TLAPS proof artifact recording a 108/108 prover result.
+
+
+Data Pipelines and Evaluation
+-----------------------------
 
 .. grid:: 1
    :gutter: 3
