@@ -166,7 +166,7 @@ Students
             `GitHub <https://github.com/arslanbisharat>`__ |
             `Email <mailto:marslan@luc.edu>`__
 
-   .. dropdown:: Postgrads
+   .. dropdown:: MS Students
       :open:
 
       .. grid:: 1 1 2 3
@@ -179,9 +179,33 @@ Students
 
             **Khushboo Bhadauria**
 
-            *MS Student, Computer Science, Loyola University Chicago*
+            *M.S. Student, Computer Science, Loyola University Chicago*
 
             `Email <mailto:kbhadauria@luc.edu>`__
+
+   .. dropdown:: UG Students
+      :open:
+
+      .. grid:: 1 1 2 3
+         :gutter: 3
+
+         .. grid-item-card::
+            :margin: 0
+            :text-align: center
+            :img-top: ../_static/images/people/bsantos.png
+
+            **Beatriz Santos**
+
+            *Undergraduate Student, Computer Science, Loyola University Chicago*
+
+            `GitHub <https://github.com/beatriz-baquerizo>`__ |
+            `Email <mailto:bsantos3@luc.edu>`__
+
+   .. dropdown:: Postgrads
+      :open:
+
+      .. grid:: 1 1 2 3
+         :gutter: 3
 
          .. grid-item-card::
             :margin: 0
@@ -190,7 +214,7 @@ Students
 
             **Brian Ortiz**
 
-            *MS Student, Computer Science, Loyola University Chicago*
+            *M.S. Computer Science, Loyola University Chicago*
 
             DevSecOps engineering and secure systems. USMC veteran.
 
@@ -213,24 +237,6 @@ Students
             `Website <https://ericspencer.us>`__ |
             `GitHub <https://github.com/EricSpencer00>`__ |
             `Email <mailto:espencer2@luc.edu>`__
-
-   .. dropdown:: UG Students
-      :open:
-
-      .. grid:: 1 1 2 3
-         :gutter: 3
-
-         .. grid-item-card::
-            :margin: 0
-            :text-align: center
-            :img-top: ../_static/images/people/bsantos.png
-
-            **Beatriz Santos**
-
-            *Undergraduate Student, Computer Science, Loyola University Chicago*
-
-            `GitHub <https://github.com/beatriz-baquerizo>`__ |
-            `Email <mailto:bsantos3@luc.edu>`__
 
 
 Alumni
