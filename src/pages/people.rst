@@ -163,9 +163,10 @@ Students
             LLM evaluation, formal methods, adversarial ML.
 
             `Website <https://marslan.cs.luc.edu/>`__ |
+            `GitHub <https://github.com/arslanbisharat>`__ |
             `Email <mailto:marslan@luc.edu>`__
 
-   .. dropdown:: MS Students
+   .. dropdown:: Postgrads
       :open:
 
       .. grid:: 1 1 2 3
@@ -191,7 +192,27 @@ Students
 
             *MS Student*
 
+            DevSecOps engineering and secure systems. USMC veteran.
+
+            `GitHub <https://github.com/bortiz-101>`__ |
             `Email <mailto:bortiz4@luc.edu>`__
+
+         .. grid-item-card::
+            :margin: 0
+            :text-align: center
+            :img-top: ../_static/images/people/spencer.png
+
+            **Eric Spencer**
+
+            *Postgraduate Researcher, Computer Science*
+
+            Mulcahy Scholar - supported by the Loyola University Chicago
+            College of Arts and Sciences Mulcahy Scholars Program under
+            the supervision of Prof. Konstantin Läufer.
+
+            `Website <https://ericspencer.us>`__ |
+            `GitHub <https://github.com/EricSpencer00>`__ |
+            `Email <mailto:espencer2@luc.edu>`__
 
    .. dropdown:: UG Students
       :open:
@@ -208,12 +229,8 @@ Students
 
             *Undergraduate Student*
 
+            `GitHub <https://github.com/beatriz-baquerizo>`__ |
             `Email <mailto:bsantos3@luc.edu>`__
-
-   .. dropdown:: Interns
-      :open:
-
-      No current interns. Interested? See :doc:`Get Involved <prospective-students>`.
 
 
 Alumni
@@ -226,9 +243,6 @@ Alumni
    * - Name
      - Joined
      - Current Affiliation
-   * - Eric Spencer
-     - Fall 2024
-     - Non-affiliated collaborator, Loyola University Chicago
-   * - Anisa Ramos
+   * - `Anisa Ramos <https://github.com/Anisa098>`__
      - Spring 2026
      - Non-affiliated collaborator, Loyola University Chicago
