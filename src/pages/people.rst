@@ -204,7 +204,7 @@ Students
 
             **Eric Spencer**
 
-            *Undergraduate Student, Computer Science, Loyola University Chicago*
+            *B.S. Computer Science, Loyola University Chicago*
 
             Mulcahy Scholar - supported by the Loyola University Chicago
             College of Arts and Sciences Mulcahy Scholars Program under
@@ -245,4 +245,4 @@ Alumni
      - Current Affiliation
    * - `Anisa Ramos <https://github.com/Anisa098>`__
      - Spring 2026
-     - Computer Science Graduate, Loyola University Chicago
+     - B.S. Computer Science, Loyola University Chicago
