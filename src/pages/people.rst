@@ -163,6 +163,7 @@ Students
             LLM evaluation, formal methods, adversarial ML.
 
             `Website <https://marslan.cs.luc.edu/>`__ |
+            `GitHub <https://github.com/arslanbisharat>`__ |
             `Email <mailto:marslan@luc.edu>`__
 
    .. dropdown:: MS Students
@@ -191,6 +192,9 @@ Students
 
             *MS Student*
 
+            DevSecOps engineering and secure systems. USMC veteran.
+
+            `GitHub <https://github.com/bortiz-101>`__ |
             `Email <mailto:bortiz4@luc.edu>`__
 
    .. dropdown:: UG Students
