@@ -158,11 +158,12 @@ Students
 
             **Arslan Bisharat**
 
-            *PhD Student*
+            *PhD Student, Computer Science, Loyola University Chicago*
 
             LLM evaluation, formal methods, adversarial ML.
 
             `Website <https://marslan.cs.luc.edu/>`__ |
+            `GitHub <https://github.com/arslanbisharat>`__ |
             `Email <mailto:marslan@luc.edu>`__
 
    .. dropdown:: MS Students
@@ -178,20 +179,9 @@ Students
 
             **Khushboo Bhadauria**
 
-            *MS Student*
+            *M.S. Student, Computer Science, Loyola University Chicago*
 
             `Email <mailto:kbhadauria@luc.edu>`__
-
-         .. grid-item-card::
-            :margin: 0
-            :text-align: center
-            :img-top: ../_static/images/people/ortiz.png
-
-            **Brian Ortiz**
-
-            *MS Student*
-
-            `Email <mailto:bortiz4@luc.edu>`__
 
    .. dropdown:: UG Students
       :open:
@@ -206,14 +196,47 @@ Students
 
             **Beatriz Santos**
 
-            *Undergraduate Student*
+            *Undergraduate Student, Computer Science, Loyola University Chicago*
 
+            `GitHub <https://github.com/beatriz-baquerizo>`__ |
             `Email <mailto:bsantos3@luc.edu>`__
 
-   .. dropdown:: Interns
+   .. dropdown:: Postgrads
       :open:
 
-      No current interns. Interested? See :doc:`Get Involved <prospective-students>`.
+      .. grid:: 1 1 2 3
+         :gutter: 3
+
+         .. grid-item-card::
+            :margin: 0
+            :text-align: center
+            :img-top: ../_static/images/people/ortiz.png
+
+            **Brian Ortiz**
+
+            *M.S. Computer Science, Loyola University Chicago*
+
+            DevSecOps engineering and secure systems. USMC veteran.
+
+            `GitHub <https://github.com/bortiz-101>`__ |
+            `Email <mailto:bortiz4@luc.edu>`__
+
+         .. grid-item-card::
+            :margin: 0
+            :text-align: center
+            :img-top: ../_static/images/people/spencer.png
+
+            **Eric Spencer**
+
+            *B.S. Computer Science, Loyola University Chicago*
+
+            Mulcahy Scholar - supported by the Loyola University Chicago
+            College of Arts and Sciences Mulcahy Scholars Program under
+            the supervision of Prof. Konstantin Läufer.
+
+            `Website <https://ericspencer.us>`__ |
+            `GitHub <https://github.com/EricSpencer00>`__ |
+            `Email <mailto:espencer2@luc.edu>`__
 
 
 Alumni
@@ -226,9 +249,6 @@ Alumni
    * - Name
      - Joined
      - Current Affiliation
-   * - Eric Spencer
-     - Fall 2024
-     - Non-affiliated collaborator, Loyola University Chicago
-   * - Anisa Ramos
+   * - `Anisa Ramos <https://github.com/Anisa098>`__
      - Spring 2026
-     - Non-affiliated collaborator, Loyola University Chicago
+     - B.S. Computer Science, Loyola University Chicago
