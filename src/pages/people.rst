@@ -201,7 +201,7 @@ Students
             `GitHub <https://github.com/beatriz-baquerizo>`__ |
             `Email <mailto:bsantos3@luc.edu>`__
 
-   .. dropdown:: Postgrads
+   .. dropdown:: LUC Alumni
       :open:
 
       .. grid:: 1 1 2 3
@@ -239,8 +239,8 @@ Students
             `Email <mailto:espencer2@luc.edu>`__
 
 
-Alumni
-------
+Past Members
+------------
 
 .. list-table::
    :header-rows: 1
