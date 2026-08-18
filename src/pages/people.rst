@@ -242,13 +242,18 @@ Students
 Past Members
 ------------
 
-.. list-table::
-   :header-rows: 1
-   :widths: 25 25 50
+.. grid:: 1 1 2 3
+   :gutter: 3
 
-   * - Name
-     - Joined
-     - Current Affiliation
-   * - `Anisa Ramos <https://github.com/Anisa098>`__
-     - Spring 2026
-     - B.S. Computer Science, Loyola University Chicago
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: ../_static/images/people/ramos.png
+
+      **Anisa Ramos**
+
+      *B.S. Computer Science, Loyola University Chicago*
+
+      Joined Spring 2026.
+
+      `GitHub <https://github.com/Anisa098>`__
