@@ -103,21 +103,8 @@ Research Areas
 Meet the Team
 -------------
 
-.. grid:: 1 2 2 4
+.. grid:: 1 2 3 3
    :gutter: 2
-
-   .. grid-item-card::
-      :margin: 0
-      :text-align: center
-      :img-top: _static/images/people/laufer.jpg
-
-      **Konstantin Laufer**
-
-      Professor
-
-      Programming Languages, Formal Methods
-
-      `Website <https://laufer.cs.luc.edu/>`__
 
    .. grid-item-card::
       :margin: 0
@@ -126,8 +113,6 @@ Meet the Team
 
       **Mohammed Abuhamad**
 
-      Assistant Professor
-
       Security, AI/ML, IoT
 
       `Website <https://abuhamad.cs.luc.edu/>`__
@@ -135,11 +120,20 @@ Meet the Team
    .. grid-item-card::
       :margin: 0
       :text-align: center
+      :img-top: _static/images/people/laufer.jpg
+
+      **Konstantin Laufer**
+
+      Programming Languages, Formal Methods
+
+      `Website <https://laufer.cs.luc.edu/>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
       :img-top: _static/images/people/thiruvathukal.png
 
       **George K. Thiruvathukal**
-
-      Professor and Chair
 
       HPC, Software Engineering, AI
 
@@ -152,11 +146,58 @@ Meet the Team
 
       **TaiNing Wang**
 
-      Assistant Professor
-
       Databases, Formal Methods, AI/ML
 
       `Website <https://taining.github.io/>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: _static/images/people/bhadauria.jpeg
+
+      **Khushboo Bhadauria**
+
+      `Email <mailto:kbhadauria@luc.edu>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: _static/images/people/bisharat.png
+
+      **Arslan Bisharat**
+
+      LLM Evaluation, Formal Methods, Adversarial ML
+
+      `Website <https://marslan.cs.luc.edu/>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: _static/images/people/ortiz.png
+
+      **Brian Ortiz**
+
+      DevSecOps, Secure Systems
+
+      `GitHub <https://github.com/bortiz-101>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: _static/images/people/bsantos.png
+
+      **Beatriz Santos**
+
+      `GitHub <https://github.com/beatriz-baquerizo>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :text-align: center
+      :img-top: _static/images/people/spencer.png
+
+      **Eric Spencer**
+
+      `Website <https://ericspencer.us>`__
 
 
 .. grid:: 1 1 2 2
