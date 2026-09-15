@@ -1,5 +1,5 @@
-Research Papers
-===============
+Publications
+============
 
 Research outputs from the AI4FM group at Loyola University Chicago.
 
@@ -13,9 +13,25 @@ Research outputs from the AI4FM group at Loyola University Chicago.
          .. grid-item-card::
             :margin: 0
 
+            :octicon:`database;1em;sd-text-primary` **TLA+-Bench: An Execution-Grounded Benchmark and Dataset for Natural-Language to TLA+ Specification Generation**
+
+            *Preprint / under review, July 2026*
+
+            An execution-grounded benchmark for natural-language-to-TLA+ generation:
+            1,300 specifications, including 403 TLC-model-checked gold specifications,
+            with a reproducible grader and research artifact.
+
+            .. button-link:: tla-bench/
+               :color: primary
+
+               Full Details
+
+         .. grid-item-card::
+            :margin: 0
+
             :octicon:`beaker;1em;sd-text-primary` **TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation**
 
-            *Accepted at ICSOFT 2026*
+            *Published in ICSOFT 2026, pp. 627–636*
 
             A 20-billion-parameter model trained with SFT and repair-based GRPO for TLA+
             specification synthesis. TLC model checking provides the reward signal directly.
@@ -31,7 +47,7 @@ Research outputs from the AI4FM group at Loyola University Chicago.
 
             :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
 
-            *Accepted at ICSOFT 2026*
+            *Published in ICSOFT 2026, pp. 39–50*
 
             The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
             language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
@@ -109,9 +125,9 @@ Research outputs from the AI4FM group at Loyola University Chicago.
          .. grid-item-card::
             :margin: 0
 
-            :octicon:`book;1em;sd-text-primary` **TLA+ for All: Running Model Checking in a Python Notebook**
+            :octicon:`book;1em;sd-text-primary` **TLA+ for All: Model Checking in a Python Notebook**
 
-            *figshare, February 2025* - Laufer, Thiruvathukal
+            *figshare preprint, February 2025* - Laufer, Thiruvathukal
 
             Integrates TLA+ model checking into Python notebook environments, making formal
             verification accessible without specialized tooling. Supports literate modeling,

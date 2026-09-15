@@ -43,13 +43,13 @@ jobs:
           python3 -m pip install uv && \
           python3 -m uv sync
 
-      - name: Build the site
+      - name: Build and verify the site
+        env:
+          AI4FM_BASE_URL: https://ericspencer.us/ai4fm/
         run: |
-          ./.venv/bin/sphinx-build -b dirhtml --write-all src build
-
-      - name: Verify sitemap
-        run: |
-          test -f build/sitemap.xml && echo "sitemap.xml generated OK" || echo "WARNING: sitemap.xml missing"
+          ./.venv/bin/sphinx-build -b dirhtml -W --keep-going --write-all src build
+          sed -i 's#https://ai4fm.cs.luc.edu/#https://ericspencer.us/ai4fm/#g' build/robots.txt
+          ./.venv/bin/python scripts/check-site.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
