@@ -1,11 +1,15 @@
 TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation
 =================================================================================================
 
-:Status: Published
 :Venue: ICSOFT 2026 — 21st International Conference on Software Technologies, Porto, Portugal, July 16–18, 2026, pp. 627–636
 :Authors: Eric Spencer, Arslan Bisharat, Brian Ortiz, Mujtaba Nazari, Khushboo Bhadauria, TaiNing Wang, George K. Thiruvathukal, Konstantin Läufer, Mohammed Abuhamad
 :DOI / PDF: `10.5220/0015234600004088 <https://doi.org/10.5220/0015234600004088>`__ | `View published PDF <https://www.scitepress.org/PublishedPapers/2026/152346/152346.pdf>`__
-:Google Scholar: `Citation record <https://scholar.google.com/scholar?cites=10942189414547579135&as_sdt=400005&sciodt=0,14&hl=en>`__
+:BibTeX: :download:`Download citation </_static/bibtex/tla-prover.bib>`
+
+
+.. raw:: html
+
+   <figure class="paper-workflow" aria-label="Verified examples to Supervised fine-tuning to Repair-based GRPO with TLC rewards to Gold and Diamond evaluation"><ol><li>Verified examples</li><li>Supervised fine-tuning</li><li>Repair-based GRPO with TLC rewards</li><li>Gold and Diamond evaluation</li></ol><figcaption>Research workflow</figcaption></figure>
 
 
 Abstract

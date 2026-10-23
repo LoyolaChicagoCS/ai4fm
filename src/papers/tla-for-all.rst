@@ -1,10 +1,15 @@
 TLA+ for All: Model Checking in a Python Notebook
 ==================================================
 
-:Status: Preprint
 :Venue: figshare, February 2025
 :Authors: Konstantin Laufer, George K. Thiruvathukal
+:BibTeX: :download:`Download citation </_static/bibtex/tla-for-all.bib>`
 :DOI / PDF: `10.6084/m9.figshare.28376276.v1 <https://doi.org/10.6084/m9.figshare.28376276.v1>`__
+
+
+.. raw:: html
+
+   <figure class="paper-workflow" aria-label="Python notebook to TLA+ specification to TLC model checker to Trace exploration"><ol><li>Python notebook</li><li>TLA+ specification</li><li>TLC model checker</li><li>Trace exploration</li></ol><figcaption>Research workflow</figcaption></figure>
 
 
 Overview

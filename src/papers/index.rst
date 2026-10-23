@@ -1,139 +1,85 @@
-Publications
-============
+Papers
+======
 
-Research outputs from the AI4FM group at Loyola University Chicago.
+:download:`Download all citations (BibTeX) </_static/bibtex/ai4fm.bib>`
 
-.. tab-set::
+.. container:: paper-entry
 
-   .. tab-item:: Papers
+   :doc:`TLA+-Bench: An Execution-Grounded Benchmark and Dataset for Natural-Language to TLA+ Specification Generation <tla-bench>`
 
-      .. grid:: 1
-         :gutter: 3
+   Arslan Bisharat, Eric Spencer, Brian Ortiz, Khushboo Bhadauria, Mujtaba Nazari,
+   Beatriz Santos, Anisa Ramos, TaiNing Wang, George K. Thiruvathukal, Konstantin
+   Läufer, and Mohammed Abuhamad. *TLA+-Bench: An Execution-Grounded Benchmark and
+   Dataset for Natural-Language to TLA+ Specification Generation*. arXiv:2607.23425,
+   2026. https://doi.org/10.48550/arXiv.2607.23425
 
-         .. grid-item-card::
-            :margin: 0
+   :download:`BibTeX </_static/bibtex/tla-bench.bib>`
 
-            :octicon:`database;1em;sd-text-primary` **TLA+-Bench: An Execution-Grounded Benchmark and Dataset for Natural-Language to TLA+ Specification Generation**
+.. container:: paper-entry
 
-            *Preprint / under review, July 2026*
+   :doc:`TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation <tla-prover>`
 
-            An execution-grounded benchmark for natural-language-to-TLA+ generation:
-            1,300 specifications, including 403 TLC-model-checked gold specifications,
-            with a reproducible grader and research artifact.
+   Eric Spencer, Arslan Bisharat, Brian Ortiz, Mujtaba Nazari, Khushboo Bhadauria,
+   TaiNing Wang, George K. Thiruvathukal, Konstantin Läufer, and Mohammed Abuhamad,
+   *TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized
+   Low-Rank Adaptation*, Proceedings of the 21st International Conference on Software
+   Technologies (ICSOFT 2026), pp. 627–636, 2026.
+   https://doi.org/10.5220/0015234600004088
 
-            .. button-link:: tla-bench/
-               :color: primary
+   :download:`BibTeX </_static/bibtex/tla-prover.bib>`
 
-               Full Details
+.. container:: paper-entry
 
-         .. grid-item-card::
-            :margin: 0
+   :doc:`Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation <llm-tla-evaluation>`
 
-            :octicon:`beaker;1em;sd-text-primary` **TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low-Rank Adaptation**
+   Arslan Bisharat, Brian Ortiz, Eric Spencer, Khushboo Bhadauria, TaiNing Wang,
+   George K. Thiruvathukal, Konstantin Läufer, and Mohammed Abuhamad,
+   *Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+
+   Generation*, Proceedings of the 21st International Conference on Software Technologies
+   (ICSOFT 2026), pp. 39–50, 2026. https://doi.org/10.5220/0015070400004088
 
-            *Published in ICSOFT 2026, pp. 627–636*
+   :download:`BibTeX </_static/bibtex/llm-tla-evaluation.bib>`
 
-            A 20-billion-parameter model trained with SFT and repair-based GRPO for TLA+
-            specification synthesis. TLC model checking provides the reward signal directly.
-            Achieves 30% pass@1 at Gold and Diamond — roughly 3.5× the 8.6% untuned baseline.
+.. container:: paper-entry
 
-            .. button-link:: tla-prover/
-               :color: primary
+   :doc:`ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification <chattla-2026>`
 
-               Full Details
+   Eric Spencer,
+   *ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification*,
+   Undergraduate Research and Engagement Symposium, Loyola University Chicago, April 17, 2026.
 
-         .. grid-item-card::
-            :margin: 0
+   :download:`BibTeX </_static/bibtex/chattla-2026.bib>`
 
-            :octicon:`beaker;1em;sd-text-primary` **Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation**
+.. container:: paper-entry
 
-            *Published in ICSOFT 2026, pp. 39–50*
+   :doc:`Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems <gsirs-2026-tla-llm>`
 
-            The first systematic evaluation of LLM-based TLA+ specification synthesis from natural
-            language. Evaluates 30 LLMs across eight families on 205 TLA+ specifications using the
-            SANY parser and TLC model checker. LLMs achieve only 8.6% semantic correctness.
-            Model size does not predict quality on formal languages.
+   Brian Ortiz, Arslan Bisharat, Mohammed Abuhamad, Konstantin Läufer, Eric Spencer,
+   Khushboo Bhadauria, George K. Thiruvathukal, and TaiNing Wang,
+   *Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems*,
+   GSIRS 2026, April 11, 2026.
+   https://doi.org/10.6084/m9.figshare.31988706.v1
 
-            .. button-link:: llm-tla-evaluation/
-               :color: primary
+   :download:`BibTeX </_static/bibtex/gsirs-2026-tla-llm.bib>`
 
-               Full Details
+.. container:: paper-entry
 
-   .. tab-item:: Presentations
+   :doc:`Automating TLA+ Model Synthesis with Large Language Models and Formal Verification Pipelines <gcasr-2025-tla-llm>`
 
-      .. grid:: 1
-         :gutter: 3
+   Brian Ortiz, Mohammed Abuhamad, TaiNing Wang, George K. Thiruvathukal, and Konstantin Läufer,
+   *Automating TLA+ Model Synthesis with Large Language Models and Formal Verification Pipelines (WIP)*,
+   GCASR 2025, May 8, 2025.
+   https://doi.org/10.6084/m9.figshare.31896151.v3
 
-         .. grid-item-card::
-            :margin: 0
+   :download:`BibTeX </_static/bibtex/gcasr-2025-tla-llm.bib>`
 
-            :octicon:`video;1em;sd-text-primary` **ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification**
+.. container:: paper-entry
 
-            *Undergraduate Research and Engagement Symposium, April 17, 2026* - Eric Spencer
+   :doc:`TLA+ for All: Model Checking in a Python Notebook <tla-for-all>`
 
-            A presentation exploring the use of large language models for generating and verifying
-            TLA+ formal specifications. Builds on the group's systematic evaluation research,
-            extending to practical generation and verification pipelines.
+   Konstantin Laufer and George K. Thiruvathukal,
+   *TLA+ for All: Model Checking in a Python Notebook*,
+   figshare, February 2025.
+   https://doi.org/10.6084/m9.figshare.28376276.v1
 
-            .. button-link:: chattla-2026/
-               :color: primary
-
-               Full Details
-
-   .. tab-item:: Posters
-
-      .. grid:: 1
-         :gutter: 3
-
-         .. grid-item-card::
-            :margin: 0
-
-            :octicon:`note;1em;sd-text-primary` **Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems**
-
-            *GSIRS 2026* - Ortiz, Bisharat, Abuhamad, Läufer, Spencer, Bhadauria, Thiruvathukal, Wang
-
-            Presented at the Loyola University Chicago Graduate School Interdisciplinary Research
-            Symposium, April 11, 2026. The first systematic evaluation of 30 LLMs on 205 TLA+
-            specifications, validated with the SANY parser and TLC model checker.
-
-            .. button-link:: gsirs-2026-tla-llm/
-               :color: primary
-
-               Full Details
-
-         .. grid-item-card::
-            :margin: 0
-
-            :octicon:`note;1em;sd-text-primary` **Automating TLA+ Model Synthesis with LLMs and Formal Verification Pipelines**
-
-            *GCASR 2025* - Ortiz, Abuhamad, Wang, Thiruvathukal, Läufer
-
-            Presented at the 12th Greater Chicago Area Systems Research Workshop, May 8, 2025,
-            Loyola University Chicago. Presents a pipeline for automating TLA+ model synthesis
-            from natural language using LLMs, validated with SANY and TLC.
-
-            .. button-link:: gcasr-2025-tla-llm/
-               :color: primary
-
-               Full Details
-
-   .. tab-item:: Tools & Artifacts
-
-      .. grid:: 1
-         :gutter: 3
-
-         .. grid-item-card::
-            :margin: 0
-
-            :octicon:`book;1em;sd-text-primary` **TLA+ for All: Model Checking in a Python Notebook**
-
-            *figshare preprint, February 2025* - Laufer, Thiruvathukal
-
-            Integrates TLA+ model checking into Python notebook environments, making formal
-            verification accessible without specialized tooling. Supports literate modeling,
-            reproducibility, and barrier-free access for teaching and research.
-
-            .. button-link:: tla-for-all/
-               :color: primary
-
-               Full Details
+   :download:`BibTeX </_static/bibtex/tla-for-all.bib>`

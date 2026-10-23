@@ -1,11 +1,22 @@
 Can LLMs Write Correct TLA+ Specifications? Evaluating Natural-Language-to-TLA+ Generation
 ============================================================================================
 
-:Status: Published
 :Venue: ICSOFT 2026 — 21st International Conference on Software Technologies, Porto, Portugal, July 16–18, 2026, pp. 39–50
 :Authors: Arslan Bisharat, Brian Ortiz, Eric Spencer, Khushboo Bhadauria, TaiNing Wang, George K. Thiruvathukal, Konstantin Läufer, Mohammed Abuhamad
 :DOI / PDF: `10.5220/0015070400004088 <https://doi.org/10.5220/0015070400004088>`__ | `View published PDF <https://www.scitepress.org/PublishedPapers/2026/150704/150704.pdf>`__
-:Google Scholar: `Citation record <https://scholar.google.com/scholar?cites=12293285851106374401&as_sdt=400005&sciodt=0,14&hl=en>`__
+:BibTeX: :download:`Download citation </_static/bibtex/llm-tla-evaluation.bib>`
+
+
+.. figure:: /_static/images/PXL_20260511_152740012.jpg
+   :alt: Discussion of the TLA+ evaluation research at GCASR 2026.
+   :class: paper-figure
+
+   Discussion of the TLA+ evaluation research at GCASR 2026.
+
+
+.. raw:: html
+
+   <figure class="paper-workflow" aria-label="Natural-language description to LLM generation to SANY syntax check to TLC semantic check"><ol><li>Natural-language description</li><li>LLM generation</li><li>SANY syntax check</li><li>TLC semantic check</li></ol><figcaption>Research workflow</figcaption></figure>
 
 
 Abstract

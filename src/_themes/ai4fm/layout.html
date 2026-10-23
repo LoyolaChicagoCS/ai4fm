@@ -21,18 +21,18 @@
 </script>
 {% endif %}
 {% endblock %}
-{% block body_tag %}<body class="{% if pagename == 'index' %}homepage{% else %}inner-page{% if pagename == 'pages/people' %} team-page{% endif %}{% endif %}">{% endblock %}
+{% block body_tag %}<body class="{% if pagename == 'index' %}homepage{% else %}inner-page{% if pagename == 'papers/index' %} papers-index{% endif %}{% if pagename == 'pages/people' %} team-page{% endif %}{% endif %}">{% endblock %}
 {% block header %}
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="{{ pathto('index') }}" aria-label="AI4FM home">ai4fm <span aria-hidden="true">@</span> <img src="https://pxl-lucedu.terminalfour.net/prod01/cdn/media/luc-redesign-2026/images/Loyola-University-Chicago-white.svg" alt="luc.edu" width="154" height="32"></a>
+    <a class="wordmark" href="{{ pathto('index') }}" aria-label="AI4FM home"> <img class="ai4fm-mark" src="{{ pathto('_static/images/logo-light.png', 1) }}" alt="AI4FM" width="800" height="800"> <span aria-hidden="true">@</span> <img src="https://pxl-lucedu.terminalfour.net/prod01/cdn/media/luc-redesign-2026/images/Loyola-University-Chicago-white.svg" alt="luc.edu" width="154" height="32"></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
       <span class="nav-toggle-label">Menu</span>
       <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
     </button>
     <nav id="site-navigation" aria-label="Main navigation">
-      {% for label, page in [('Publications', 'papers/index'), ('Updates', 'posts/index'), ('Team', 'pages/people'), ('Software and Datasets', 'pages/software'), ('About', 'pages/about')] %}
+      {% for label, page in [('Papers', 'papers/index'), ('Updates', 'posts/index'), ('Team', 'pages/people'), ('Software and Datasets', 'pages/software'), ('About', 'pages/about')] %}
       <a href="{{ pathto(page) }}"{% if pagename == page or (page == 'papers/index' and pagename.startswith('papers/')) or (page == 'posts/index' and pagename.startswith('posts/')) %} aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
@@ -68,7 +68,7 @@
     </div>
   </section>
   <div class="home-columns site-width">
-    <section class="home-section research-list" aria-labelledby="research-heading"><h2 id="research-heading">Publications</h2>
+    <section class="home-section research-list" aria-labelledby="research-heading"><h2 id="research-heading">Papers</h2>
       <div class="home-card-grid home-card-grid--publications">
       {% for paper in research_pages[:3] %}
       <article class="home-card publication-card">
@@ -102,10 +102,10 @@
 {% else %}
 <div class="page-layout site-width">
   <main role="main" id="main" class="article-body">
-    <div class="breadcrumbs"><a href="{{ pathto('index') }}">ai4fm</a><span aria-hidden="true"> / </span>{% if pagename.startswith('papers/') and pagename != 'papers/index' %}<a href="{{ pathto('papers/index') }}">Publications</a>{% elif pagename.startswith('posts/') and pagename != 'posts/index' %}<a href="{{ pathto('posts/index') }}">Updates</a>{% else %}<span>{{ title|striptags }}</span>{% endif %}</div>
+    <div class="breadcrumbs"><a href="{{ pathto('index') }}">ai4fm</a><span aria-hidden="true"> / </span>{% if pagename.startswith('papers/') and pagename != 'papers/index' %}<a href="{{ pathto('papers/index') }}">Papers</a>{% elif pagename.startswith('posts/') and pagename != 'posts/index' %}<a href="{{ pathto('posts/index') }}">Updates</a>{% else %}<span>{{ title|striptags }}</span>{% endif %}</div>
     {% block body %}{{ body }}{% endblock %}
   </main>
-  {% if display_toc and pagename != 'search' %}<aside class="page-toc" aria-label="On this page">{{ toc }}</aside>{% endif %}
+  {% if display_toc and pagename not in ['search', 'papers/index'] %}<aside class="page-toc" aria-label="On this page">{{ toc }}</aside>{% endif %}
 </div>
 {% endif %}
 {% endblock %}
@@ -121,7 +121,7 @@
     <div class="footer-column">
       <h2 class="footer-heading">Content</h2>
       <nav aria-label="Content">
-        <a href="{{ pathto('papers/index') }}">Publications</a>
+        <a href="{{ pathto('papers/index') }}">Papers</a>
         <a href="{{ pathto('posts/index') }}">Updates</a>
         <a href="{{ pathto('pages/software') }}">Software and datasets</a>
         <a href="{{ pathto('blog/atom.xml', 1) }}" type="application/atom+xml">RSS feed</a>

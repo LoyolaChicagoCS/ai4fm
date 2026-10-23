@@ -1,11 +1,18 @@
 ChatTLA+: Using LLMs for TLA+ Formal Specification Generation and Verification
 ===============================================================================
 
-:Status: Presented
 :Venue: Undergraduate Research and Engagement Symposium, Loyola University Chicago, April 17, 2026
 :Authors: Eric Spencer
+:BibTeX: :download:`Download citation </_static/bibtex/chattla-2026.bib>`
 :Institution: Loyola University Chicago
 :Archive / PDF: `Loyola eCommons archival record <https://ecommons.luc.edu/ures/2026uresarchive/2026uresarchive/41/>`__ | `View archival PDF <https://ecommons.luc.edu/cgi/viewcontent.cgi?article=2648&context=ures>`__
+
+
+.. figure:: /_static/images/eric-chattla-presentation-2026.png
+   :alt: ChatTLA+ presentation.
+   :class: paper-figure
+
+   ChatTLA+ presentation.
 
 
 Abstract

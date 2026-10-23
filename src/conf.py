@@ -231,7 +231,6 @@ def homepage_context(
         item = {"docname": docname, "title": app.env.titles[docname].astext()}
         if docname.startswith("papers/"):
             item.update(
-                status=fields.get("Status", ""),
                 venue=fields.get("Venue", ""),
                 authors=fields.get("Authors", ""),
             )
@@ -246,7 +245,7 @@ def homepage_context(
             news.append(item)
     # Preserve the research index's editorial order; newly added pages follow it.
     paper_index = Path(app.srcdir, "papers/index.rst").read_text(encoding="utf-8")
-    ordered = re.findall(r"\.\. button-link:: ([\w-]+)/", paper_index)
+    ordered = re.findall(r"<([\w-]+)>", paper_index)
     positions = {"papers/" + slug: index for index, slug in enumerate(ordered)}
     context["research_pages"] = sorted(
         research,

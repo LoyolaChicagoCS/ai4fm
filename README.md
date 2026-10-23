@@ -16,7 +16,7 @@ The preview is served at http://127.0.0.1:8000. Both local development and GitHu
 
 ## Content
 
-- `src/papers/`: one source file per paper, presentation, poster, or artifact. Keep the existing title and `Status`, `Venue`, `Authors`, and `DOI / PDF` fields. Each source becomes its own page.
+- `src/papers/`: one source file per paper, presentation, poster, or artifact. Keep the existing title and `Venue`, `Authors`, `BibTeX`, and `DOI / PDF` fields. Each source becomes its own page.
 - `src/posts/`: one source file per news post. Use the existing `blogpost`, `date` (for example `June 5, 2026`), `author`, `category`, and `tags` fields.
 - `src/pages/`: team, software, about, funding, and participation pages.
 
@@ -26,7 +26,7 @@ Use Sphinx `:doc:` links for internal pages and `:download:` links for downloada
 
 ## Design
 
-`src/_themes/ai4fm/` contains the shared layout and stylesheet. The theme uses the selected maroon-and-paper design, the compact `ai4fm @ luc.edu` header, the Computer Science site's Open Sans and Antenna heading stack, and 100 ms hover feedback. Reduced-motion preferences disable transitions. Fonts have local fallbacks.
+`src/_themes/ai4fm/` contains the shared layout and stylesheet. The theme uses the selected maroon-and-paper design, the AI4FM lambda logo beside the Loyola logo, the Computer Science site's Open Sans and Antenna heading stack, and 100 ms hover feedback. Reduced-motion preferences disable transitions. Fonts have local fallbacks.
 
 The root `index.html` opens the generated homepage after a build. Use `make serve` to browse the complete site locally.
 
