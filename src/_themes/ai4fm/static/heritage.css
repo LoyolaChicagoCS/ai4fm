@@ -491,7 +491,7 @@ h1,
 }
 
 /* Paper bibliography and research figures. */
-.wordmark img.ai4fm-mark { width: 60px; height: 60px; object-fit: contain; background: var(--paper); }
+.wordmark img.ai4fm-mark { width: 60px; height: 60px; object-fit: contain; background: transparent; filter: brightness(0) invert(1); }
 .papers-index .page-layout { display: block; }
 .paper-entry { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .article-body .paper-entry > p { max-width: none; }
