@@ -13,6 +13,21 @@ Research outputs from the AI4FM group at Loyola University Chicago.
          .. grid-item-card::
             :margin: 0
 
+            :octicon:`search;1em;sd-text-primary` **ALIAS: Evaluating Performance and Memorization in LLM-Written TLA+ Specifications**
+
+            *Preprint, October 2026*
+
+            Tests whether renaming identifiers reliably reveals memorization in LLMs. On 111 TLA+
+            tasks, much of the score drop after renaming comes from name-based grading, not memorization.
+
+            .. button-link:: alias/
+               :color: primary
+
+               Full Details
+
+         .. grid-item-card::
+            :margin: 0
+
             :octicon:`database;1em;sd-text-primary` **TLA+-Bench: An Execution-Grounded Benchmark and Dataset for Natural-Language to TLA+ Specification Generation**
 
             *Preprint / under review, July 2026*
