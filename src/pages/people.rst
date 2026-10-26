@@ -26,7 +26,6 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       Published at ACM CCS, IEEE TDSC, IEEE TIFS, and IEEE ICDCS.
 
       `Website <https://abuhamad.cs.luc.edu/>`__ |
-      `Google Scholar <https://scholar.google.com/citations?user=V7FWdNoAAAAJ&hl=en>`__ |
       `Email <mailto:mabuhamad@luc.edu>`__
 
    .. grid-item-card::
@@ -47,7 +46,6 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       served as department chair 2012-2018.
 
       `Website <https://laufer.cs.luc.edu/>`__ |
-      `Google Scholar <https://scholar.google.com/citations?user=Rs0f_nMAAAAJ&hl=en>`__ |
       `ORCID <https://orcid.org/0000-0002-7548-0876>`__ |
       `GitHub <https://github.com/laufer>`__
 
@@ -69,7 +67,6 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       Scientist at Argonne National Laboratory. Author of 200+ works.
 
       `Website <https://gkt.sh/>`__ |
-      `Google Scholar <https://scholar.google.com/citations?user=Ls7yS0IAAAAJ&hl=en>`__ |
       `GitHub <https://github.com/gkthiruvathukal>`__
 
    .. grid-item-card::
@@ -89,7 +86,6 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       PhD from the National University of Singapore. Microsoft Research Asia Fellow (2019).
 
       `Website <https://taining.github.io/>`__ |
-      `Google Scholar <https://scholar.google.com/citations?user=LjWiPr8AAAAJ&hl=en>`__ |
       `Email <mailto:twang12@luc.edu>`__
 
    .. grid-item-card::

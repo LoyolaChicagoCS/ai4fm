@@ -8,6 +8,7 @@ Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective a
 :DOI / Poster: `10.6084/m9.figshare.31988706.v1 <https://doi.org/10.6084/m9.figshare.31988706.v1>`__
 
 
+
 Abstract
 --------
 
@@ -34,6 +35,19 @@ This poster is based on the :doc:`published ICSOFT 2026 paper
 <../papers/llm-tla-evaluation>`.
 
 
+In Plain Words
+--------------
+
+This poster is a short, visual version of the group's ICSOFT 2026 paper. It was shown at the Graduate School Interdisciplinary Research Symposium at Loyola in April 2026.
+
+The question is whether AI models can write TLA+ specifications, which are exact descriptions of how a system should behave, starting from a plain-English description. Companies like Amazon and Microsoft use TLA+ to check important systems, but it takes skill and time to write. If AI could do the first draft, more engineers could use it.
+
+To find out, the team tested 30 models on 205 TLA+ specifications. Each answer went through two checks. A parser called SANY asked whether the text was written in the right form. The TLC model checker asked whether it behaved correctly. Passing the first check is like having correct spelling. Passing the second is like having a sentence that actually makes sense.
+
+The results are on the poster in three points. First, the models did much better on form than on meaning: up to 26.6% passed the parser, but only 8.6% passed TLC. Second, a bigger model is not automatically a better one. A smaller DeepSeek model beat its own larger version. Third, models built mainly to write code did worse on TLA+, probably because the habits they learned from popular programming languages do not carry over. And the only runs that passed TLC used progressive prompting.
+
+In short, the poster says that today's AI is not ready to write formal specifications on its own, and it points to where to work next: better training for formal languages and better ways of asking.
+
 Citation
 --------
 
@@ -42,3 +56,18 @@ Khushboo Bhadauria, George K. Thiruvathukal, and TaiNing Wang,
 *Large Language Models (LLM) and Temporal Logic of Actions (TLA): How Effective are LLMs for Verification Systems*,
 GSIRS 2026, April 11, 2026.
 https://doi.org/10.6084/m9.figshare.31988706.v1
+
+
+BibTeX
+------
+
+.. code-block:: bibtex
+
+   @misc{ortiz2026gsirs,
+     title        = {Large Language Models ({LLM}) and Temporal Logic of Actions ({TLA}): How Effective are {LLMs} for Verification Systems},
+     author       = {Ortiz, Brian and Bisharat, Arslan and Abuhamad, Mohammed and Läufer, Konstantin and Spencer, Eric and Bhadauria, Khushboo and Thiruvathukal, George K. and Wang, TaiNing},
+     year         = {2026},
+     month        = apr,
+     howpublished = {Poster, Graduate School Interdisciplinary Research Symposium (GSIRS), Loyola University Chicago},
+     doi          = {10.6084/m9.figshare.31988706.v1}
+   }

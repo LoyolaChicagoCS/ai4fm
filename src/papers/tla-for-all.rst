@@ -7,6 +7,7 @@ TLA+ for All: Model Checking in a Python Notebook
 :DOI / PDF: `10.6084/m9.figshare.28376276.v1 <https://doi.org/10.6084/m9.figshare.28376276.v1>`__
 
 
+
 Overview
 --------
 
@@ -72,6 +73,19 @@ committing to a full tool installation.
 before touching the implementation.
 
 
+In Plain Words
+--------------
+
+Formal methods have a reputation for being only for experts. Part of the reason is plain inconvenience. To check a TLA+ specification you normally install Java, set up the TLC model checker on the command line, or learn a separate program called the TLA+ Toolbox. If you are teaching a class, every student has to do this on their own machine, and something always goes wrong.
+
+This project removes that wall. It puts TLA+ model checking inside a Python notebook, the kind of page that mixes text, code and results that many students already know. You open a link in your browser, write a specification, run TLC, and look at what happened, all in one place. Nothing has to be installed.
+
+A few features follow from that. You can mix your specification with ordinary writing, so a reader sees the explanation next to the rules it describes. If TLC finds a problem, you can explore the example that breaks the rule and see how the system's behavior unfolded. And because everything lives in one shared page, anyone with the link can re-run the whole analysis and get the same answer.
+
+The paper lists a few places this helps. In a class or workshop, students can begin writing specifications in the first minute. In research, a paper can carry specifications that readers can actually run. Engineers can sketch a design and test an idea without committing to a full tool setup. And new team members can explore the formal model of a codebase before touching the real code.
+
+The idea is simple, but it lowers the cost of the first step. When trying something takes one click, many more people will try it.
+
 Citation
 --------
 
@@ -79,3 +93,18 @@ Konstantin Laufer and George K. Thiruvathukal,
 *TLA+ for All: Model Checking in a Python Notebook*,
 figshare, February 2025.
 https://doi.org/10.6084/m9.figshare.28376276.v1
+
+
+BibTeX
+------
+
+.. code-block:: bibtex
+
+   @misc{laufer2025tlaforall,
+     title        = {{TLA+} for All: Model Checking in a {Python} Notebook},
+     author       = {Laufer, Konstantin and Thiruvathukal, George K.},
+     year         = {2025},
+     month        = feb,
+     howpublished = {figshare},
+     doi          = {10.6084/m9.figshare.28376276.v1}
+   }
