@@ -5,8 +5,11 @@ TLA-Prover: Verifiable TLA+ Specification Synthesis via Preference-Optimized Low
 :Venue: ICSOFT 2026 — 21st International Conference on Software Technologies, Porto, Portugal, July 16–18, 2026, pp. 627–636
 :Authors: Eric Spencer, Arslan Bisharat, Brian Ortiz, Mujtaba Nazari, Khushboo Bhadauria, TaiNing Wang, George K. Thiruvathukal, Konstantin Läufer, Mohammed Abuhamad
 :DOI / PDF: `10.5220/0015234600004088 <https://doi.org/10.5220/0015234600004088>`__ | `View published PDF <https://www.scitepress.org/PublishedPapers/2026/152346/152346.pdf>`__
-:Google Scholar: `Citation record <https://scholar.google.com/scholar?cites=10942189414547579135&as_sdt=400005&sciodt=0,14&hl=en>`__
 
+
+
+.. raw:: html
+   :file: _figures/tla-prover-dots.html
 
 Abstract
 --------
@@ -50,6 +53,7 @@ Key Results
      - 20%
    * - Improvement over untuned baseline
      - ~3.5×
+
 
 
 Training Approach
@@ -102,6 +106,19 @@ demonstrates that targeted fine-tuning with verifiable reward signals can close 
 of that gap.
 
 
+In Plain Words
+--------------
+
+When people ask AI models to write TLA+ rules for a system, most of the answers fail. In the group's earlier study, the best public models wrote a file in the right form about 26.6% of the time, but only 8.6% of the answers passed the TLC model checker. In other words, the models know how TLA+ looks but not what it means.
+
+TLA-Prover is a model built to do better. It has 20 billion parameters, which is a way of saying it is large. It is trained in two steps. First comes supervised fine-tuning, which is like studying a book of worked, checked examples. Second comes a practice stage called GRPO. Here the model writes several tries at the same task, and TLC checks each one. Answers that pass are rewarded. Answers that fail become repair exercises, so the model learns to fix its own mistakes. TLC itself acts as the judge, so no extra scoring model is needed.
+
+The team also tried a second way to practice, called DPO, which learns from pairs of better and worse answers. Both ways start from the same first step, so the comparison is fair.
+
+Passing TLC alone can be misleading. If a model writes a rule that is always true, TLC will happily pass it, and the rule says nothing useful. To catch this, the grading has four tiers: Bronze for a file that parses, Silver for no parser warnings, Gold for passing TLC, and Diamond for Gold plus a check that TLC complains when the rule is deliberately broken a little. A rule that never complains is empty, so it fails Diamond.
+
+On a test of 30 held-out problems, TLA-Prover solved 9, or 30%, at both Gold and Diamond. That is about 3.5 times the 8.6% baseline. The DPO version reached 20% at Diamond. Gold and Diamond matched at every checkpoint, so the model did not seem to be cheating with empty rules. The test set is small, so these numbers are an encouraging first step and not a final answer.
+
 Citation
 --------
 
@@ -111,3 +128,19 @@ TaiNing Wang, George K. Thiruvathukal, Konstantin Läufer, and Mohammed Abuhamad
 Low-Rank Adaptation*, Proceedings of the 21st International Conference on Software
 Technologies (ICSOFT 2026), pp. 627–636, 2026.
 https://doi.org/10.5220/0015234600004088
+
+
+BibTeX
+------
+
+.. code-block:: bibtex
+
+   @inproceedings{spencer2026tlaprover,
+     title     = {{TLA-Prover}: Verifiable {TLA+} Specification Synthesis via Preference-Optimized Low-Rank Adaptation},
+     author    = {Spencer, Eric and Bisharat, Arslan and Ortiz, Brian and Nazari, Mujtaba and Bhadauria, Khushboo and Wang, TaiNing and Thiruvathukal, George K. and Läufer, Konstantin and Abuhamad, Mohammed},
+     booktitle = {Proceedings of the 21st International Conference on Software Technologies (ICSOFT 2026)},
+     pages     = {627--636},
+     year      = {2026},
+     address   = {Porto, Portugal},
+     doi       = {10.5220/0015234600004088}
+   }

@@ -1,8 +1,9 @@
 {% extends "basic/layout.html" %}
 {% block extrahead %}
 <script defer src="{{ pathto('_static/js/site-nav.js', 1) }}"></script>
+{% if pagename.startswith('papers/') and pagename != 'papers/index' %}<script defer src="{{ pathto('_static/js/cite.js', 1) }}"></script>{% endif %}
 {% if pagename == 'index' %}
-<script defer src="{{ pathto('_static/js/home-carousel.js', 1) }}"></script>
+<link rel="stylesheet" href="{{ pathto('_static/css/homepage.css', 1) }}">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -24,9 +25,18 @@
 {% block body_tag %}<body class="{% if pagename == 'index' %}homepage{% else %}inner-page{% if pagename == 'pages/people' %} team-page{% endif %}{% endif %}">{% endblock %}
 {% block header %}
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="utility-bar">
+  <div class="utility-inner site-width">
+    <a class="utility-brand" href="https://www.luc.edu/cs/" aria-label="Loyola University Chicago, Department of Computer Science"><img src="https://pxl-lucedu.terminalfour.net/prod01/cdn/media/luc-redesign-2026/images/Loyola-University-Chicago-white.svg" alt="" width="120" height="25"></a>
+    <nav aria-label="Audiences">
+      <a href="{{ pathto('pages/prospective-students') }}">For students</a>
+      <a href="{{ pathto('pages/software') }}">For researchers</a>
+    </nav>
+  </div>
+</div>
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="{{ pathto('index') }}" aria-label="AI4FM home">ai4fm <span aria-hidden="true">@</span> <img src="https://pxl-lucedu.terminalfour.net/prod01/cdn/media/luc-redesign-2026/images/Loyola-University-Chicago-white.svg" alt="luc.edu" width="154" height="32"></a>
+    <a class="wordmark" href="{{ pathto('index') }}" aria-label="AI4FM home"><img src="{{ pathto('_static/images/logo-light.png', 1) }}" alt="AI4FM" width="800" height="800"></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
       <span class="nav-toggle-label">Menu</span>
       <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
@@ -43,59 +53,58 @@
 {% block relbar2 %}{% endblock %}
 {% block content %}
 {% if pagename == 'index' %}
-<main role="main" id="main" class="home-main">
-  <section class="home-hero">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <h1>AI for Formal Methods</h1>
-        <p class="hero-dek">Loyola University Chicago’s research lab exploring the intersection of artificial intelligence and formal methods in software engineering. Established 2025.</p>
-      </div>
-      <section class="hero-carousel" aria-hidden="true">
-        <div class="hero-carousel__viewport">
-          <ul class="hero-carousel__track">
-            <li class="hero-carousel__slide is-active">
-              <img src="{{ pathto('_static/images/gsirs-2026-brian-poster.png', 1) }}" alt="" width="600" height="800" fetchpriority="high">
-            </li>
-            <li class="hero-carousel__slide">
-              <img src="{{ pathto('_static/images/eric-chattla-presentation-2026.png', 1) }}" alt="" width="740" height="968" loading="lazy">
-            </li>
-            <li class="hero-carousel__slide">
-              <img src="{{ pathto('_static/images/gcasr-2025-brian-poster.jpeg', 1) }}" alt="" width="1024" height="771" loading="lazy">
-            </li>
-          </ul>
-        </div>
-      </section>
+<main role="main" id="main" class="hm site-width">
+  <aside class="hm-side">
+    <div class="hm-side__inner">
+      <p class="hm-kicker">Loyola University Chicago<br>Department of Computer Science</p>
+      <h1>AI for Formal Methods</h1>
+      <p class="hm-lede">We study how language models can help people write and check formal specifications of software systems. Our code, models, and datasets are public, so others can rerun and build on our work.</p>
+      <nav class="hm-links" aria-label="Explore">
+        <a href="{{ pathto('papers/index') }}">Publications</a>
+        <a href="{{ pathto('pages/software') }}">Software and datasets</a>
+        <a href="{{ pathto('pages/people') }}">Team</a>
+        <a href="{{ pathto('pages/about') }}">About</a>
+        <a href="{{ pathto('pages/prospective-students') }}">Get involved</a>
+      </nav>
     </div>
-  </section>
-  <div class="home-columns site-width">
-    <section class="home-section research-list" aria-labelledby="research-heading"><h2 id="research-heading">Publications</h2>
-      <div class="home-card-grid home-card-grid--publications">
-      {% for paper in research_pages[:3] %}
-      <article class="home-card publication-card">
-        <h3><a href="{{ pathto(paper.docname) }}">{{ paper.title }}</a></h3>
-        {% if paper.authors %}<p class="entry-authors">{{ paper.authors }}</p>{% endif %}
-      </article>
+  </aside>
+
+  <div class="hm-flow">
+    <section aria-labelledby="research-heading">
+      <h2 id="research-heading">Recent publications</h2>
+      <ol class="hm-pubs">
+      {% for paper in research_pages[:4] %}
+        <li>
+          <h3><a href="{{ pathto(paper.docname) }}">{{ paper.title }}</a></h3>
+          <p>{% if paper.venue %}{{ paper.venue }}{% elif paper.status %}{{ paper.status }}{% endif %}{% if paper.authors %}<br>{{ paper.authors }}{% endif %}</p>
+        </li>
       {% endfor %}
-      </div>
-      <a class="read-more" href="{{ pathto('papers/index') }}">Read more <span aria-hidden="true">›</span></a>
+      </ol>
+      <a class="hm-more" href="{{ pathto('papers/index') }}">All publications →</a>
     </section>
-    <section class="home-section news-list" aria-labelledby="news-heading"><h2 id="news-heading">Updates</h2>
-      <div class="home-card-grid home-card-grid--updates">
-      {% for post in news_pages[:3] %}
-      <article class="home-card update-card"><time datetime="{{ post.iso_date }}">{{ post.date }}</time><h3><a href="{{ pathto(post.docname) }}">{{ post.title }}</a></h3></article>
+
+    <section aria-labelledby="posters-heading">
+      <h2 id="posters-heading">Posters and talks</h2>
+      <ul class="hm-strip">
+        <li><a href="{{ pathto('papers/gsirs-2026-tla-llm') }}"><img src="{{ pathto('_static/images/gsirs-2026-brian-poster.png', 1) }}" alt="Poster on LLM-based TLA+ generation, Graduate Student Interdisciplinary Research Symposium 2026" width="600" height="800" loading="lazy"><span>GSIRS 2026</span></a></li>
+        <li><a href="{{ pathto('papers/chattla-2026') }}"><img src="{{ pathto('_static/images/eric-chattla-presentation-2026.png', 1) }}" alt="Title slide of the ChatTLA+ presentation, URES 2026" width="740" height="968" loading="lazy"><span>URES 2026</span></a></li>
+        <li><a href="{{ pathto('papers/gcasr-2025-tla-llm') }}"><img src="{{ pathto('_static/images/gcasr-2025-brian-poster.jpeg', 1) }}" alt="Poster on LLMs and TLA+, Greater Chicago Area Systems Research Workshop 2025" width="1024" height="771" loading="lazy"><span>GCASR 2025</span></a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="news-heading">
+      <h2 id="news-heading">Updates</h2>
+      <ol class="hm-news">
+      {% for post in news_pages[:4] %}
+        <li><time datetime="{{ post.iso_date }}">{{ post.date }}</time><a href="{{ pathto(post.docname) }}">{{ post.title }}</a></li>
       {% endfor %}
-      </div>
-      <a class="read-more" href="{{ pathto('posts/index') }}">Read more <span aria-hidden="true">›</span></a>
+      </ol>
+      <a class="hm-more" href="{{ pathto('posts/index') }}">All updates →</a>
     </section>
-  </div>
-  <div class="home-bottom site-width">
-    <section class="home-bottom-entry">
-      <h2><a href="{{ pathto('pages/about') }}">About</a></h2>
-      <p>Meet the lab, our research focus, and the Loyola community behind AI4FM.</p>
-    </section>
-    <section class="home-bottom-entry">
-      <h2><a href="{{ pathto('pages/prospective-students') }}">Get Involved</a></h2>
-      <p>Find ways to contribute, collaborate, or join us as a student researcher.</p>
+
+    <section aria-labelledby="join-heading">
+      <h2 id="join-heading">Get involved</h2>
+      <p class="hm-join">Undergraduate and graduate students take part in our research at every stage. Prior experience with formal methods is not required. <a href="{{ pathto('pages/prospective-students') }}">See how to join</a>.</p>
     </section>
   </div>
 </main>
