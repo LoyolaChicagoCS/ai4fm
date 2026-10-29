@@ -592,3 +592,14 @@ html { background: #fff; }
 .inner-page:not(.team-page) .article-body dl.field-list { margin: 20px 0 28px; }
 .inner-page:not(.team-page) .article-body table { display: table; width: 100%; font-size: 14px; margin: 18px 0 24px; }
 .inner-page:not(.team-page) .article-body table td, .inner-page:not(.team-page) .article-body table th { padding: 10px 14px; }
+
+/* Leaderboard: rules between rows only, figures aligned for comparison. */
+.inner-page .article-body table.leaderboard { display: block; overflow-x: auto; border-collapse: collapse; font-size: 14px; margin: 12px 0 30px; }
+.inner-page .article-body table.leaderboard th, .inner-page .article-body table.leaderboard td { border: 0; border-bottom: 1px solid var(--line); padding: 10px 16px 10px 0; vertical-align: top; }
+.inner-page .article-body table.leaderboard th { background: transparent; font-weight: 600; font-size: 12px; color: var(--muted); border-bottom-color: var(--ink); white-space: normal; }
+.inner-page .article-body table.leaderboard .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.inner-page .article-body table.leaderboard .lb-model { display: block; color: var(--ink); font-weight: 600; white-space: nowrap; }
+.inner-page .article-body table.leaderboard .lb-id { display: block; font-size: 12px; color: var(--muted); }
+.article-body .leaderboard-empty { font-size: 16px; color: var(--muted); max-width: 60ch; }
+.article-body .leaderboard-caption { font-size: 13px; color: var(--muted); margin: 0 0 4px; }
+.inner-page .article-body table.leaderboard .lb-date { white-space: nowrap; }
