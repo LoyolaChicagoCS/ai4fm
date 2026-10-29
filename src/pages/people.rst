@@ -115,6 +115,25 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       :margin: 0
       :class-card: team-card
 
+      .. image:: ../_static/images/people/nazari.png
+         :alt: Mujtaba Nazari
+         :class: profile-photo
+         :width: 200px
+
+      **Mujtaba Nazari**
+
+      *PhD Student, Computer Science, Loyola University Chicago*
+
+      Research on large language models and formal methods. Co-author of TLA+-Bench, a
+      benchmark and dataset for generating TLA+ specifications from natural language.
+
+      `Website <https://mnazari.cs.luc.edu/>`__ |
+      `Email <mailto:mnazari@luc.edu>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :class-card: team-card
+
       .. image:: ../_static/images/people/bhadauria.jpeg
          :alt: Khushboo Bhadauria
          :class: profile-photo
@@ -150,6 +169,48 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       `GitHub <https://github.com/beatriz-baquerizo>`__ |
       `Email <mailto:bsantos3@luc.edu>`__
+
+   .. grid-item-card::
+      :margin: 0
+      :class-card: team-card
+
+      .. image:: ../_static/images/people/ramos.png
+         :alt: Anisa Ramos
+         :class: profile-photo
+         :width: 200px
+
+      **Anisa Ramos**
+
+      *B.S. Computer Science, Loyola University Chicago*
+
+      Joined in Spring 2026. Co-author of TLA+-Bench, a benchmark and dataset of 1,300
+      TLA+ specifications from 13 public GitHub repositories, including 403 gold
+      specifications model-checked with TLC and 897 parse-only silver specifications.
+
+      `GitHub <https://github.com/Anisa098>`__
+   .. grid-item-card::
+      :margin: 0
+      :class-card: team-card
+
+      .. image:: ../_static/images/people/khan.png
+         :alt: Ayaan Khan
+         :class: profile-photo
+         :width: 200px
+
+      **Ayaan Khan**
+
+      *Undergraduate Student, Computer Science, Loyola University Chicago*
+
+      Undergraduate researcher in the AI4FM group, working on large language models for
+      formal methods.
+
+      `Email <mailto:akhan95@luc.edu>`__
+
+Alumni
+------
+
+.. grid:: 1 2 3 4
+   :gutter: 4
 
    .. grid-item-card::
       :margin: 0
@@ -191,22 +252,3 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       `Website <https://ericspencer.us>`__ |
       `GitHub <https://github.com/EricSpencer00>`__ |
       `Email <mailto:espencer2@luc.edu>`__
-
-   .. grid-item-card::
-      :margin: 0
-      :class-card: team-card
-
-      .. image:: ../_static/images/people/ramos.png
-         :alt: Anisa Ramos
-         :class: profile-photo
-         :width: 200px
-
-      **Anisa Ramos**
-
-      *B.S. Computer Science, Loyola University Chicago*
-
-      Joined in Spring 2026. Co-author of TLA+-Bench, a benchmark and dataset of 1,300
-      TLA+ specifications from 13 public GitHub repositories, including 403 gold
-      specifications model-checked with TLC and 897 parse-only silver specifications.
-
-      `GitHub <https://github.com/Anisa098>`__

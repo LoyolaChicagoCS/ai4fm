@@ -10,7 +10,6 @@ TLA+-Bench: An Execution-Grounded Benchmark and Dataset for Natural-Language to 
 :Paper: `arXiv:2607.23425 <https://arxiv.org/abs/2607.23425>`__ | `PDF <https://arxiv.org/pdf/2607.23425>`__
 :DOI: `10.48550/arXiv.2607.23425 <https://doi.org/10.48550/arXiv.2607.23425>`__
 :Artifact: `Benchmark, dataset, and reproduction code <https://github.com/LUC-AI4FM/tla_benchmark/tree/reviewer-release>`__
-:Leaderboard: :doc:`Model results on the gold specifications <../pages/leaderboard>`
 
 
 

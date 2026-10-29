@@ -42,7 +42,7 @@
       <span class="nav-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
     </button>
     <nav id="site-navigation" aria-label="Main navigation">
-      {% for label, page in [('Publications', 'papers/index'), ('Leaderboard', 'pages/leaderboard'), ('Updates', 'posts/index'), ('Team', 'pages/people'), ('Software and Datasets', 'pages/software'), ('About', 'pages/about')] %}
+      {% for label, page in [('Publications', 'papers/index'), ('Updates', 'posts/index'), ('Team', 'pages/people'), ('Software and Datasets', 'pages/software'), ('About', 'pages/about')] %}
       <a href="{{ pathto(page) }}"{% if pagename == page or (page == 'papers/index' and pagename.startswith('papers/')) or (page == 'posts/index' and pagename.startswith('posts/')) %} aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
