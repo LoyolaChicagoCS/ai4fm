@@ -14,12 +14,14 @@ Copyright (C) 2025 George K. Thiruvathukal.
 
 import datetime
 import html
+import json
 import os
 import re
 from operator import itemgetter
 from pathlib import Path
 
 from docutils import nodes
+from docutils.parsers.rst import Directive
 from sphinx.application import Sphinx
 
 project = "AI4FM | AI for Formal Methods"
@@ -258,8 +260,114 @@ def homepage_context(
     context["news_pages"] = sorted(news, key=itemgetter("iso_date"), reverse=True)
 
 
+LEADERBOARD_DATA = "data/leaderboard.json"
+LEADERBOARD_MODES = (("default", "Default"), ("cfgaware", "Configuration-aware"))
+LEADERBOARD_DESCRIPTIONS = (
+    ("gpt", "Declarative, GPT"),
+    ("claude", "Declarative, Claude"),
+    ("intent_gpt", "Intent, GPT"),
+    ("intent_claude", "Intent, Claude"),
+)
+
+
+def _count(value: int, total: int) -> str:
+    return f"{value} ({100 * value / total:.1f}%)" if total else str(value)
+
+
+class LeaderboardDirective(Directive):
+    """
+    Render the TLA+-Bench leaderboard from src/data/leaderboard.json.
+
+    Each model entry holds ``name``, ``model_id``, ``weights`` (open or closed), ``served``,
+    ``date`` and ``results``: one object per setting key ``<mode>/<description>`` with
+    counts ``gold_a``, ``gold_b`` (specifications passing TLC) and ``sany`` (specifications
+    that parse, out of all gold). An optional ``variation`` list holds Gold A pass counts
+    for the repeated samples of the main setting. Invalid data stops the build.
+    """
+
+    has_content = False
+
+    def run(self) -> list[nodes.Node]:
+        env = self.state.document.settings.env
+        path = Path(env.srcdir, LEADERBOARD_DATA)
+        env.note_dependency(str(path))
+        data = json.loads(path.read_text(encoding="utf-8"))
+        bench = data["benchmark"]
+        a_total, b_total = bench["gold_a"], bench["gold_b"]
+        settings = [f"{m}/{d}" for m, _ in LEADERBOARD_MODES for d, _ in LEADERBOARD_DESCRIPTIONS]
+        main = data["main_setting"]
+        models = data["models"]
+        for model in models:
+            for key, counts in model["results"].items():
+                if key not in settings:
+                    raise self.error(f"{model['name']}: unknown setting {key}")
+                limits = {"gold_a": a_total, "gold_b": b_total, "sany": a_total + b_total}
+                for field, limit in limits.items():
+                    if not 0 <= counts[field] <= limit:
+                        raise self.error(f"{model['name']} {key}: {field} must be 0..{limit}")
+        if not models:
+            note = html.escape(data.get("pending_note", "No results are published yet."))
+            return [nodes.raw("", f'<p class="leaderboard-empty">{note}</p>', format="html")]
+
+        ranked = sorted(
+            (m for m in models if main in m["results"]),
+            key=lambda m: m["results"][main]["gold_a"],
+            reverse=True,
+        )
+        def name_cell(model: dict, details: bool) -> str:
+            cell = f'<span class="lb-model">{html.escape(model["name"])}</span>'
+            if details:
+                meta = html.escape(f'{model["weights"]} weights, {model["served"]}, run ')
+                date = f'<span class="lb-date">{html.escape(model["date"])}</span>'
+                cell += f'<span class="lb-id">{html.escape(model["model_id"])}</span>'
+                cell += f'<span class="lb-id">{meta}{date}</span>'
+            return f"<td>{cell}</td>"
+
+        rows = []
+        for rank, model in enumerate(ranked, 1):
+            r = model["results"][main]
+            spread = model.get("variation") or []
+            variation = f"{min(spread)} to {max(spread)}" if spread else "Not run"
+            rows.append(
+                f'<tr><td class="num">{rank}</td>{name_cell(model, True)}'
+                f'<td class="num">{_count(r["gold_a"], a_total)}</td>'
+                f'<td class="num">{_count(r["gold_b"], b_total)}</td>'
+                f'<td class="num">{_count(r["gold_a"] + r["gold_b"], a_total + b_total)}</td>'
+                f'<td class="num">{_count(r["sany"], a_total + b_total)}</td>'
+                f'<td class="num">{html.escape(variation)}</td></tr>'
+            )
+        main_table = (
+            '<table class="leaderboard"><thead><tr><th class="num">Rank</th><th>Model</th>'
+            f'<th class="num">Gold A<br>of {a_total}</th><th class="num">Gold B<br>of {b_total}</th>'
+            f'<th class="num">All gold<br>of {a_total + b_total}</th>'
+            f'<th class="num">Parses<br>of {a_total + b_total}</th>'
+            '<th class="num">Gold A range,<br>5 runs at 0.8</th>'
+            "</tr></thead><tbody>" + "".join(rows) + "</tbody></table>"
+        )
+        tables = []
+        for mode, mode_label in LEADERBOARD_MODES:
+            head = "".join(f'<th class="num">{html.escape(dl)}</th>' for _, dl in LEADERBOARD_DESCRIPTIONS)
+            body = []
+            for model in ranked:
+                cells = []
+                for desc, _ in LEADERBOARD_DESCRIPTIONS:
+                    r = model["results"].get(f"{mode}/{desc}")
+                    cells.append(f'<td class="num">{_count(r["gold_a"], a_total) if r else "Not run"}</td>')
+                body.append(f"<tr>{name_cell(model, False)}{''.join(cells)}</tr>")
+            tables.append(
+                f'<p class="leaderboard-caption">{mode_label} prompt: Gold A specifications '
+                f"passing TLC, of {a_total}, for each description.</p>"
+                f'<table class="leaderboard"><thead><tr><th>Model</th>{head}</tr></thead>'
+                f'<tbody>{"".join(body)}</tbody></table>'
+            )
+        updated = html.escape(data.get("updated") or "")
+        stamp = f'<p class="leaderboard-caption">Last updated {updated}.</p>' if updated else ""
+        return [nodes.raw("", stamp + main_table + "".join(tables), format="html")]
+
+
 def setup(app: Sphinx) -> None:
-    """Register homepage data preparation with Sphinx."""
+    """Register homepage data preparation and the leaderboard directive with Sphinx."""
+    app.add_directive("leaderboard", LeaderboardDirective)
     app.connect("html-page-context", homepage_context)
     # Run after sphinxext-opengraph has populated the head metadata.
     app.connect("html-page-context", seo_context, priority=1000)
