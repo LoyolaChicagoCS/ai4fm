@@ -115,6 +115,11 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       :margin: 0
       :class-card: team-card
 
+      .. image:: ../_static/images/people/nazari.png
+         :alt: Mujtaba Nazari
+         :class: profile-photo
+         :width: 200px
+
       **Mujtaba Nazari**
 
       *PhD Student, Computer Science, Loyola University Chicago*
@@ -186,6 +191,11 @@ The AI4FM research group brings together faculty and students from Loyola Univer
    .. grid-item-card::
       :margin: 0
       :class-card: team-card
+
+      .. image:: ../_static/images/people/khan.png
+         :alt: Ayaan Khan
+         :class: profile-photo
+         :width: 200px
 
       **Ayaan Khan**
 
