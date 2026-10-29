@@ -564,3 +564,31 @@ html { background: #fff; }
 .fig-svg .pt-acc { fill: oklch(.47 .09 215); stroke: #fff; stroke-width: 2; }
 .fig-svg .pt-gray { fill: oklch(.55 .01 60); stroke: #fff; stroke-width: 2; }
 .fig-svg .grid { stroke: var(--line); stroke-width: 1; }
+
+/* Team page: four per row; each photo fills its cell and every photo has the same shape. */
+.team-page .page-layout { max-width: 1280px; }
+.team-page .team-card img.profile-photo { width: 100% !important; max-width: 100% !important; height: auto !important; aspect-ratio: 1 / 1; object-fit: cover; object-position: center 20%; margin: 0 0 16px; }
+.team-page .team-card img[src*="laufer"] { object-position: center 40%; }
+.team-page .team-card p { font-size: 14px; line-height: 1.6; }
+.team-page .team-card p em { min-height: 4.8em; }
+@media (max-width: 575px) { .team-page .team-card img.profile-photo { max-width: 420px !important; } }
+.team-page .team-card .sd-card-body > * { flex: 0 0 auto; }
+.team-page .team-card .sd-card-body > p:last-child { margin-top: auto; }
+.team-page .team-card img.profile-photo { flex: 0 0 auto; min-height: 0; }
+.team-page .team-card a.profile-photo { display: block; width: 100% !important; height: auto !important; margin: 0 0 16px; flex: 0 0 auto; }
+.team-page .team-card a.profile-photo img.profile-photo { margin: 0; }
+
+/* Team cards: role and bio read as one block, with no reserved blank lines. */
+.team-page .team-card p em { min-height: 0; display: block; margin: 0; }
+.team-page .team-card p { margin: 0 0 8px; }
+.team-page .team-card p strong { margin-bottom: 2px; }
+.team-page .team-card .sd-card-body { padding-bottom: 40px; }
+
+/* Paper and update pages: text uses the full column, with tighter paragraph spacing. */
+.inner-page:not(.team-page) .article-body p { max-width: none; line-height: 1.7; margin: 0 0 12px; }
+.inner-page:not(.team-page) .article-body li { max-width: none; }
+.inner-page:not(.team-page) .article-body section > h2 { margin: 34px 0 10px; }
+.inner-page:not(.team-page) .article-body figure.paper-figure figcaption { max-width: none; }
+.inner-page:not(.team-page) .article-body dl.field-list { margin: 20px 0 28px; }
+.inner-page:not(.team-page) .article-body table { display: table; width: 100%; font-size: 14px; margin: 18px 0 24px; }
+.inner-page:not(.team-page) .article-body table td, .inner-page:not(.team-page) .article-body table th { padding: 10px 14px; }

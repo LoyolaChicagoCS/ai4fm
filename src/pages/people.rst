@@ -5,7 +5,7 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 `Department of Computer Science <https://www.luc.edu/cs/>`__.
 
 
-.. grid:: 1 2 3 3
+.. grid:: 1 2 3 4
    :gutter: 4
 
    .. grid-item-card::
@@ -42,8 +42,8 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       *Professor of Computer Science, Loyola University Chicago*
 
       Research spans programming languages, software architecture, distributed systems,
-      and data engineering. PhD from the Courant Institute at NYU. Joined Loyola in 1992,
-      served as department chair 2012-2018.
+      and data engineering. PhD from the Courant Institute at NYU. Joined Loyola in 1992
+      and served as the department chair from 2012 to 2018.
 
       `Website <https://laufer.cs.luc.edu/>`__ |
       `ORCID <https://orcid.org/0000-0002-7548-0876>`__ |
@@ -62,9 +62,10 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *Professor and Chairperson, Computer Science, Loyola University Chicago*
 
-      Research spans HPC, distributed systems, software engineering, and ML.
-      Former EiC of IEEE Computing in Science and Engineering. Visiting Computer
-      Scientist at Argonne National Laboratory. Author of 200+ works.
+      Research spans high-performance computing, distributed systems, software
+      engineering, and ML. Former Editor-in-Chief of IEEE Computing in Science and
+      Engineering. Visiting Computer Scientist at Argonne National Laboratory. Author of
+      more than 200 works.
 
       `Website <https://gkt.sh/>`__ |
       `GitHub <https://github.com/gkthiruvathukal>`__
@@ -83,7 +84,8 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       *Assistant Professor, Computer Science, Loyola University Chicago*
 
       Research focuses on databases, query processing, graph data, and AI accountability.
-      PhD from the National University of Singapore. Microsoft Research Asia Fellow (2019).
+      PhD from the National University of Singapore. Microsoft Research Asia Fellow
+      (2019). Co-author of TLA+-Bench, TLA-Prover, and the ALIAS memorization study.
 
       `Website <https://taining.github.io/>`__ |
       `Email <mailto:twang12@luc.edu>`__
@@ -101,7 +103,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *PhD Student, Computer Science, Loyola University Chicago*
 
-      LLM evaluation, formal methods, adversarial ML.
+      Research focuses on LLM evaluation, formal methods, and adversarial ML. First author
+      of TLA+-Bench, the ICSOFT 2026 evaluation of LLM-written TLA+ specifications, and
+      the ALIAS preprint on memorization in LLM-written TLA+ specifications.
 
       `Website <https://marslan.cs.luc.edu/>`__ |
       `GitHub <https://github.com/arslanbisharat>`__ |
@@ -120,6 +124,10 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *M.S. Student, Computer Science, Loyola University Chicago*
 
+      Co-author of the TLA+-Bench benchmark, the TLA-Prover language model, the ICSOFT
+      2026 evaluation of LLM-written TLA+ specifications, the ALIAS memorization preprint,
+      and the GSIRS 2026 research poster presented at Loyola University Chicago.
+
       `Email <mailto:kbhadauria@luc.edu>`__
 
    .. grid-item-card::
@@ -134,6 +142,11 @@ The AI4FM research group brings together faculty and students from Loyola Univer
       **Beatriz Santos**
 
       *Undergraduate Student, Computer Science, Loyola University Chicago*
+
+      Co-author of TLA+-Bench, a benchmark of 1,300 TLA+ specifications for
+      natural-language-to-TLA+ generation, and of the ALIAS preprint on memorization in
+      LLM-written TLA+ specifications, both from the AI4FM research group at Loyola
+      University.
 
       `GitHub <https://github.com/beatriz-baquerizo>`__ |
       `Email <mailto:bsantos3@luc.edu>`__
@@ -151,7 +164,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *M.S. Computer Science, Loyola University Chicago*
 
-      DevSecOps engineering and secure systems. USMC veteran.
+      DevSecOps engineering and secure systems. USMC veteran. First author of the GCASR
+      2025 and GSIRS 2026 posters on LLMs and TLA+, and co-author of TLA+-Bench,
+      TLA-Prover, and the ICSOFT 2026 evaluation paper.
 
       `GitHub <https://github.com/bortiz-101>`__ |
       `Email <mailto:bortiz4@luc.edu>`__
@@ -169,9 +184,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *B.S. Computer Science, Loyola University Chicago*
 
-      Mulcahy Scholar - supported by the Loyola University Chicago
-      College of Arts and Sciences Mulcahy Scholars Program under
-      the supervision of Prof. Konstantin Läufer.
+      Mulcahy Scholar, supported by the Loyola College of Arts and Sciences Mulcahy
+      Scholars Program under the supervision of Prof. Konstantin Läufer. First author of
+      TLA-Prover. Presented the ChatTLA+ talk at URES 2026.
 
       `Website <https://ericspencer.us>`__ |
       `GitHub <https://github.com/EricSpencer00>`__ |
@@ -190,6 +205,8 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *B.S. Computer Science, Loyola University Chicago*
 
-      Joined Spring 2026.
+      Joined in Spring 2026. Co-author of TLA+-Bench, a benchmark and dataset of 1,300
+      TLA+ specifications from 13 public GitHub repositories, including 403 gold
+      specifications model-checked with TLC and 897 parse-only silver specifications.
 
       `GitHub <https://github.com/Anisa098>`__
