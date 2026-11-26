@@ -85,7 +85,7 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       Research focuses on databases, query processing, graph data, and AI accountability.
       PhD from the National University of Singapore. Microsoft Research Asia Fellow
-      (2019). Co-author of TLA+-Bench, TLA-Prover, and the ALIAS memorization study.
+      (2019).
 
       `Website <https://taining.github.io/>`__ |
       `Email <mailto:twang12@luc.edu>`__
@@ -103,9 +103,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *PhD Student, Computer Science, Loyola University Chicago*
 
-      Research focuses on LLM evaluation, formal methods, and adversarial ML. First author
-      of TLA+-Bench, the ICSOFT 2026 evaluation of LLM-written TLA+ specifications, and
-      the ALIAS preprint on memorization in LLM-written TLA+ specifications.
+      Arslan is a Ph.D. student in Computer Science at Loyola University Chicago and holds
+      an M.S. in Data Science from Loyola. Research interests include LLM evaluation,
+      formal methods, and adversarial machine learning.
 
       `Website <https://marslan.cs.luc.edu/>`__ |
       `GitHub <https://github.com/arslanbisharat>`__ |
@@ -124,8 +124,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *PhD Student, Computer Science, Loyola University Chicago*
 
-      Research on large language models and formal methods. Co-author of TLA+-Bench, a
-      benchmark and dataset for generating TLA+ specifications from natural language.
+      Mujtaba is a Ph.D. student in Computer Science at Loyola University Chicago and
+      earned a master's degree in Software Engineering as a Fulbright scholar. Research
+      interests include large language models, software engineering, and formal methods.
 
       `Website <https://mnazari.cs.luc.edu/>`__ |
       `Email <mailto:mnazari@luc.edu>`__
@@ -143,9 +144,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *M.S. Student, Computer Science, Loyola University Chicago*
 
-      Co-author of the TLA+-Bench benchmark, the TLA-Prover language model, the ICSOFT
-      2026 evaluation of LLM-written TLA+ specifications, the ALIAS memorization preprint,
-      and the GSIRS 2026 research poster presented at Loyola University Chicago.
+      Khushboo is an M.S. student in Computer Science at Loyola University Chicago.
+      Research interests include large language models, machine learning, and formal
+      methods.
 
       `Email <mailto:kbhadauria@luc.edu>`__
 
@@ -162,10 +163,8 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *Undergraduate Student, Computer Science, Loyola University Chicago*
 
-      Co-author of TLA+-Bench, a benchmark of 1,300 TLA+ specifications for
-      natural-language-to-TLA+ generation, and of the ALIAS preprint on memorization in
-      LLM-written TLA+ specifications, both from the AI4FM research group at Loyola
-      University.
+      Beatriz is an undergraduate student in Computer Science at Loyola University
+      Chicago. Research interests include large language models and formal methods.
 
       `GitHub <https://github.com/beatriz-baquerizo>`__ |
       `Email <mailto:bsantos3@luc.edu>`__
@@ -183,11 +182,12 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *B.S. Computer Science, Loyola University Chicago*
 
-      Joined in Spring 2026. Co-author of TLA+-Bench, a benchmark and dataset of 1,300
-      TLA+ specifications from 13 public GitHub repositories, including 403 gold
-      specifications model-checked with TLC and 897 parse-only silver specifications.
+      Anisa joined the AI4FM group in Spring 2026 with a background in Computer Science
+      from Loyola University Chicago. Research interests include large language models
+      and formal methods.
 
       `GitHub <https://github.com/Anisa098>`__
+
    .. grid-item-card::
       :margin: 0
       :class-card: team-card
@@ -201,8 +201,9 @@ The AI4FM research group brings together faculty and students from Loyola Univer
 
       *Undergraduate Student, Computer Science, Loyola University Chicago*
 
-      Undergraduate researcher in the AI4FM group, working on large language models for
-      formal methods.
+      Ayaan is an undergraduate student at Loyola University Chicago, majoring in Computer
+      Science with a minor in Artificial Intelligence. Research interests include
+      artificial intelligence and large language models.
 
       `Email <mailto:akhan95@luc.edu>`__
 
@@ -225,9 +226,9 @@ Alumni
 
       *M.S. Computer Science, Loyola University Chicago*
 
-      DevSecOps engineering and secure systems. USMC veteran. First author of the GCASR
-      2025 and GSIRS 2026 posters on LLMs and TLA+, and co-author of TLA+-Bench,
-      TLA-Prover, and the ICSOFT 2026 evaluation paper.
+      Brian holds an M.S. in Computer Science from Loyola University Chicago and is a
+      DevSecOps engineer and U.S. Marine Corps veteran. Research interests include secure
+      systems, DevSecOps, and large language models.
 
       `GitHub <https://github.com/bortiz-101>`__ |
       `Email <mailto:bortiz4@luc.edu>`__
@@ -245,9 +246,8 @@ Alumni
 
       *B.S. Computer Science, Loyola University Chicago*
 
-      Mulcahy Scholar, supported by the Loyola College of Arts and Sciences Mulcahy
-      Scholars Program under the supervision of Prof. Konstantin Läufer. First author of
-      TLA-Prover. Presented the ChatTLA+ talk at URES 2026.
+      Eric holds a B.S. in Computer Science from Loyola University Chicago and was a
+      Mulcahy Scholar. Research interests include formal methods and machine learning.
 
       `Website <https://ericspencer.us>`__ |
       `GitHub <https://github.com/EricSpencer00>`__ |
